@@ -13,7 +13,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <title>English 508 (Spring 2016)</title>
+    <title>English 508 (Spring 2017)</title>
   </head>
 
   <body>
@@ -21,7 +21,7 @@
       <div class="inner">
         <h1><a href="index.html">English 508 @UVic</a></h1>
         <h2>Digital Studies | Prototyping Texts</h2>
-        <a href="https://github.com/jentery/508/tree/gh-pages" class="button"><small>View project on</small> GitHub</a>
+        <a href="https://github.com/jentery/508v2/" class="button"><small>View project on</small> GitHub</a>
       </div>
     </header>
 
@@ -30,9 +30,185 @@
         <section id="main-content">
         <h1>Notes</h1>
 
-<h2><a id="week11"></a>Week 11 | 14 March | Prototyping, Criticism, and Writing</h2>
+<p>Below are some notes for reference during the seminar.</p>
+<ul>
+<li><a href="#motivations">Motivations and Aims for the Seminar</a></li>
+<li><a href="#postulations">Postulations for the Seminar</a></li>
+<li><a href="#prototype">What's a Prototype?</a></li>
+<li><a href="#typesof">Types of Prototypes</a></li>
+<li><a href="#isms">The Role of -isms in the Seminar</a></li>
+<li><a href="#speculation">Speculation as Inquiry</a></li>
+<li><a href="#criticism">Prototyping as Textual Criticism</a></li> 
+<li><a href="#address">Addressing Texts Addressing Us</a></li>
+<li><a href="#academic">Approaching Academic Writing</a></li>
+<li><a href="#images">Approaching Texts as Images</a></li>
+<li><a href="#metadata">Approaching Texts as Metadata</a></li>
+<li><a href="#ascii">Approaching Texts as Plain Text (ASCII)</a></li><li><a href="#markup">Approaching Texts as Markup</a></li>
+<li><a href="#type">Approaching Texts as Type</a></li>
+<li><a href="#forms">Approaching Texts as Forms</a></li>
+<li><a href="#glitches">Approaching Texts as Redactions + Glitches</a></li>
+<li><a href="#audio">Approaching Texts as Audio (MP3)</a></li>
+<li><a href="#bots">Approaching Texts as Bots</a></li>
 
-<p>We might describe prototyping as a form of literary, cultural, or textual criticism that:</p>
+<h2><a id="motivations"></a>Motivations and Aims for the Seminar</h2>
+<p>Hello! Welcome to 508. I'm looking forward to it. At some point during our first meeting, we should introduce ourselves and briefly review the <a href="index.html">syllabus</a>, which is also available in <a href="syllabus.pdf">PDF</a>. After you read the syllabus, please let me know of any concerns.</p>
+<h3><a id="assumptionswk1"></a>Assumptions</h3>
+<p>Let's start the seminar with some common assumptions about digital humanities (DH). If you don't mind, then I'd like to discuss each of these, with an emphasis on your familiarity with them and any questions you have.</p>
+<ul>
+<li>The field is a service. It merely develops and maintains digital resources for researchers. It does not interpret or meaningfully engage with pre-digital traditions in literary and cultural criticism.<br /></li>
+<li>DH does not concern itself with the literary or aesthetic character of texts. It does not do hermeneutics. Instead, it is instrumentalist in character: a techno-solutionist byproduct of positivism and big data. It bypasses fiction and poetry for gadgets and whiz-bang.<br /></li>
+<li>DH practitioners replace cultural perspectives with uncritical computer vision. Instead of privileging irony or ambiguity, they use computers to &quot;prove&quot; reductive claims about literature and culture, usually through graphs and totalizing visualizations. Literature and critical theory are subordinated to investments in data.<br /></li>
+<li>To participate in the field, you must be fluent in computer programming, or at least willing to treat literature and culture quantitatively. If you are not a programmer, then you are not doing digital humanities.</li>
+</ul>
+
+<h3><a id="counter-assumptions"></a>Counter-assumptions</h3>
+<p>During this seminar, I suggest we complicate and counter these assumptions by:</p>
+<ul>
+<li>Doing digital studies without much, if any, interest in programming. For instance, I will not require you to conduct any programming exercises during workshops or outside of seminar. If you wish to apply programming to the material, then feel free. (I enjoy programming, too.)</li>
+<li>Experimenting with a speculative thread of digital studies that is interested less in visualization, graphical expression, or big data and more in close reading, small data, and affordances (i.e., immeasurable yet specific relations between &quot;animal and environment&quot;; see <a target="_blank" href="http://jenteryteaches.com/noneshall/508/gibsonVisualPerception.pdf">J.J. Gibson in 1979 on &quot;The Ambient Optic Array&quot;</a>).</li>
+<li>Accounting for the ways in which art resists, diffracts, or escapes interpretation (or remediation) by computer vision. This may be something as basic as a text that is <a target="_blank" href="http://www.theguardian.com/books/booksblog/2014/may/01/scanner-ebook-arms-anus-optical-character-recognition">not conducive to optical character recognition</a> or search mechanisms; we might also consider the categorization and indexing of art via practices such as descriptive metadata.</li>
+<li>Historicizing digital studies through legacies of experimental media and aesthetics prior to personal computing and the internet. One trick here will be negotiating our relationship with the &quot;avant-garde.&quot; For instance, can we balance assertions for autonomy or rupture with materialist investments in the everyday? Or, how do we address the ideologies overtly at work in avant-garde aesthetics?</li>
+<li>Thinking through paradigms that do not privilege legibility, speed, massiveness, mining, or even discovery. Important question: can you manage such paradigms without relying on romantic individualism, or without assuming we can &quot;withdraw&quot; from the systems we interpret? I ask because I'm personally skeptical of recent, rather nostalgic obsessions with pre-digital living and labour. Can we maintain critiques of computational or algorithmic logic without inventing (or assuming) a history of &quot;simpler times&quot;? While I don't want to rely too much on qualifiers such as &quot;pre&quot; and &quot;post,&quot; I do wonder if we might unpack something like a &quot;post-digital&quot; approach to print and old media during this seminar. This approach might involve locating new media (see <a target="_blank" href="http://jenteryteaches.com/noneshall/508/manovichNewMedia.pdf">Manovich in 2001 on &quot;What Is New Media?&quot;</a>) in our everyday lives (as a given, as something banal or familiar) to then prototype alternative histories and possibilities. This way, &quot;digital&quot; is not synonymous with &quot;revolutionary&quot; or even &quot;novel.&quot; Maybe it's quite boring.<br /></li>
+<li>Conducting a series of experiments that blend technique with conceptualization, stuff with ideas, maintenance with novelty, and material specificity with politics and aesthetics. These experiments might follow in a long tradition of dialectics accounting for relations between the abstract and particular.<br /></li>
+<li>Resisting a &quot;make or break&quot; logic, with a bias instead toward &quot;care, repair, and maintenance&quot; as practices fundamental to literary and cultural practice. Later in the term, we'll specifically talk about alternatives to suspicion. For now, we might highlight how innovation and obsolescence operate through technologies (or &quot;technocultures&quot;; see <a target="_blank" href="http://pmc.iath.virginia.edu/text-only/issue.990/ross-1.990">Andrew Ross in 1990</a>).</li>
+</ul>
+
+<h2><a id="postulations"></a>Postulations</h2>
+<p>Let us entertain a series of postulations for the seminar. They are below, with some references to the scholarship informing them. We'll discuss their consequences or implications by anchoring them in weekly exercises, where each of you will alter a single text (of your choice) using specific techniques. Together, these acts of alteration may be understood as a sequence of prototyping: testing interpretations and their affordances as they manifest in physical or tactile form.</p>
+<p><a id="whatifdesign"></a><p><strong>Postulation 1:</strong> <em>What if digital studies is primarily about design? Or, what happens if we privilege design as a way to interpret literary and cultural history?</em> These questions are especially inspired by the work of <a href="http://jenteryteaches.com/noneshall/508/balsamoDesign.pdf">Anne Balsamo, who (in &quot;Design,&quot; published in 2010</a>) outlines four ways to define design:</p>
+<ul>
+<li>&quot;aesthetic embellishments or nonfunctional aspects of a product or application,&quot; where, in an aesthetic tradition, design is separate from its object (Balsamo 2010: 2);</li>
+<li>&quot;a solution to a problem,&quot; where, in an engineering tradition, design is associated with an evaluable task meant to solve a puzzle (2010: 2);</li>
+<li>&quot;a domain of creative expression,&quot; where design, in an arts tradition, stresses the practices through which materials are shaped into a form (2010: 2); and</li>
+<li>&quot;a practice of cultural reproduction,&quot; where design, in a cultural studies (or &quot;design studies&quot;) tradition, is studied as a combination of &quot;ontological frameworks, methodologies, institutional formations, and cultural manifestations&quot; (2010: 2). Here, we have, at least in part, a kind of &quot;meta&quot; approach to design. Admittedly, this approach seems like a good fit for humanities methodologies.</li>
+</ul>
+<p>Later, Balsamo argues that people (or, more specifically, designers) should be &quot;encouraged to develop a robust imagination about <em>what could and should</em> be done differently with technologies that are already in existence&quot; (2010: 7). Put this way, design should be not only described and theorized but also exercised. In this seminar, we might replace Balsamo's &quot;technologies&quot; with &quot;texts,&quot; asking ourselves what could and should be done differently with texts already in existence. In so doing, we could also summon <a target="_blank" href="https://books.google.ca/books?id=XSaPAwAAQBAJ&amp;lpg=PA155&amp;ots=0bdW23uS1Z&amp;dq=A%20critical%20technical%20practice%20will%2C%20at%20least%20for%20the%20foreseeable%20future%2C%20require%20a%20split%20identity%20--%20one%20foot%20planted%20in%20the%20craft%20work%20of%20design%20and%20the%20other%20foot%20planted%20in%20the%20reflexive%20work%20of%20critique&amp;pg=PA131#v=onepage&amp;q&amp;f=false">Philip Agre's notion of &quot;critical technical practice&quot;</a>: &quot;A critical technical practice will, at least for the foreseeable future, require a split identity&mdash;one foot planted in the craft work of design and the other foot planted in the reflexive work of critique&quot; (Agre 1997: 155).</p>
+<p>More recently, there's Anthony Dunne and Fiona Raby with <em>Speculative Everything</em>, published in 2013. There, they point to fiction as a way to think about &quot;critical design,&quot; which is not art but rather &quot;an alternative to how things are. It is the gap between reality as we know it and the different idea of reality referred to in . . . [a] proposal that creates space for discussion&quot; (Dunne and Raby 2013: 35). When we prototype texts in this seminar, we could approach them as gaps between history as we know it and a different idea of history referenced by the altered text at hand. This may give us a stronger sense of how design studies meaningfully engages literary and cultural studies.</p>
+
+<p><a id="whatifrepair"></a><strong>Postulation 2:</strong> <em>What if design practice is about both speculation and repair? Or, what if the history of literature and culture is a broken world, or at least one that demands constant maintenance?</em> This postulation prompts us to approach literary and cultural history as states of constant change across contexts, formats, media, audiences, archives . . . . The list goes on. In a way, digital studies stewards those changes, with possible futures and potential conditions in mind.</p>
+<p>When prototyping texts, we may rehearse <a target="_blank" href="http://www.indiana.edu/~bobweb/r546/modules/creativity/creativity_tests/guilford_uses_task.html">Guilford's Alternative Uses Task</a> to list the many possible manifestations of a single text. What if it were a . . . ? Or a . . . ? Then we can produce these versions and interpret them accordingly.</p>
+<p>For me, <a target="_blank" href="http://jenteryteaches.com/noneshall/508/rosnerAmesDesigningForRepair.pdf">the work of Daniela Rosner and Morgan Ames</a> (2014) is informative here. They refer to &quot;negotiated endurance,&quot; or &quot;the ways that maintenance, care, and repair are negotiated&mdash;often collaboratively&mdash;in use and the meaning-making associated with use, rather than the meanings pre-specified by designers&quot; (Rosner and Ames 2014: 9). For us, questions of negotiated endurance may involve attending to issues that authors cannot anticipate (e.g., what will happen to their work as conditions change). They may also nudge us to research the historical and material particulars of texts: who made them, when, and how, together with how they've migrated, morphed, or &quot;broken down&quot; (whatever that means for a text). What's more, negotiated endurance should help us account for matters of provenance, variance, witnessing, circulation, and appropriation (e.g., who should alter or recontextualize a text, in what form, with what acknowledgments, and under what assumptions).</p>
+<p><a target="_blank" href="http://jenteryteaches.com/noneshall/508/jacksonRethinkingRepair.pdf">Stephen Jackson's notion of &quot;broken world thinking&quot;</a> is helpful here, too. Jackson warns us of &quot;the twin analytic dangers of nostalgia and heroism&quot; (2014: 233). As part of broken world thinking, he recommends:</p>
+<ul>
+<li>thinking beyond the binaries of &quot;senders and receivers, producers and consumers, designers and users&quot; (2014: 234);</li>
+<li>directing our attention away from novelty (or &quot;the shock of the new&quot;) toward &quot;the myriad forms of activity by which the shape, standing, and meaning of objects in the world [are] produced and sustained&quot; (2014: 234);</li>
+<li>expanding our articulation of timelines beyond origin stories or ruptures to account for the long shelf life of material culture, including its maintenance and repair (2014: 234);</li>
+<li>&quot;building bridges to new and adjacent fields&quot; (2014: 235), which, in this case, include bridges between technology studies (Jackson's field) and media, literary, cultural, and design studies; and</li>
+<li>&quot;positioning the world of things as an active component and partner in the ongoing project of building more humane, just, and sustainable collectives&quot; (2014: 235). In this instance, it is important to note that, for Jackson, a thing is not a fetish. It is closer to a congealed process, tactile relationship, or bundle of components.</li>
+</ul>
+<p>As Jackson acknowledges, broken world thinking corresponds with how Walter Benjamin perceived history, &quot;collecting and recuperating the world around him&quot; (Jackson 2014: 237). For this seminar, how might the alteration of texts (however fragmentary) also be an act of recuperation?</p>
+
+<p><a id="whatifprototype"></a><strong>Postulation 3:</strong> <em>What if interpretation is expressed through not only text but also prototypes? What do literary prototypes do, and how?</em> Thus far, these three questions have been running in the background of my notes for this week, so I'll foreground them here. While scholarship in design often treats text as the enemy, we might instead think about design and text, or prototyping and literature, together.</p>
+<p>Such gestures have plenty of precedent in the humanities. For me, <a target="_blank" href="http://jenteryteaches.com/noneshall/508/druckerFiguringTheWord.pdf">Johanna Drucker's work on artists' books</a> immediately comes to mind; there, the word is often image, part of a long history of <a target="_blank" href="http://jenteryteaches.com/noneshall/508/druckerMcVarishGraphicDesignHistory.pdf">graphic design</a>. <a target="_blank" href="http://www.digitalhumanities.org/companion/view?docId=blackwell/9781405103213/9781405103213.xml&amp;chunk.id=ss1-4-10">Drucker's speculative computing work with Bethany Nowviskie</a> is also relevant: &quot;Our goal is to place the hermeneut inside a visual and algorithmic system, where his or her very presence alters an otherwise mechanistic process at the quantum level&quot; (Drucker and Nowviskie 2004: n. pag.). Textual systems become arranged systems that we may inhabit and even alter. When we write a text, we design it, too. Perhaps the key question is how palpable or forward the design is.</p>
+<p>Many also reference <a target="_blank" href="http://jenteryteaches.com/noneshall/508/sterlingDesignFiction.pdf">Bruce Sterling's notion of &quot;design fiction,&quot;</a> which combines design (as &quot;a method of action,&quot; following Charles Eames) with literature (as &quot;a method of meaning and feeling&quot;) (Sterling 2009: 24). While we might dispute Sterling's formation here, we now see a thing called &quot;design fiction&quot; at work across many present-day labs, studios, conferences, and publications. For instance, the MIT Media Lab has a <a target="_blank" href="https://www.media.mit.edu/research/groups/design-fiction">Design Fiction research group</a>.</p>
+<p>In digital humanities, there's <a target="_blank" href="http://digitalhumanities.org/dhq/vol/3/4/000069/000069.html">Kari Kraus's &quot;Conjectural Criticism,&quot;</a> published in 2009. Kraus's work deeply informs this seminar: &quot;examples of conjecture include the recovery of lost readings in classical texts and the computational modeling of the evolution of a literary work&quot; (Kraus 2009: para. 4). "Expressed in grammatical terms, conjecture operates in the subjunctive and conditional moods. Because its range of motion extends beyond the pale of the empirical, its vocabulary is replete with coulds, mights, mays, and ifs. Such a vocabulary reflects not caution&mdash;on the contrary, conjecture is a radical, audacious editorial style&mdash;but rather a refusal to settle for attested states of texts" (2009: para. 9). She argues: &quot;We might, for starters, imagine conjecture as a knowledge toolkit designed to perform 'what if' analyses across a range of texts. In this view, the text is a semiotic system whose discrete units of information can be artfully manipulated into alternate configurations that may represent past or future states&quot; (2009: para. 15). For Kraus, material experimentation is (or should be) central to the practice of interpretation, and it can do more than heal, mask, or rectify the changes that occur in texts. It can produce those changes and examine the effects. In this sense, perhaps literary prototypes, or design fictions, weld the practices of reading and interpretation with their objects of inquiry.</p>
+
+<p><a id="whatifmatter"></a><strong>Postulation 4:</strong> <em>What if meaning is entangled with matter? Or, in the relations between interpretations and materials, where do we locate agency?</em> Here, I'm specifically drawing from <a target="_blank" href="http://jenteryteaches.com/noneshall/508/baradMeetingTheUniverseHalfway.pdf">Karen Barad's <em>Meeting the Universe Halfway</em></a>, published in 2007. For the purposes of this seminar, Barad prompts us to shift:</p>
+<ul>
+<li>From studies of mimesis or sameness (e.g., copies of originals, or words mirroring things) to considerations of differences over time and across instances (Barad 2007: 89);</li>
+<li>From representational (e.g., stable boundaries between subjects and objects) to performative paradigms (e.g., subjects and objects emerge through relationships/situations) (2007: 89);</li>
+<li>From words and things to the entanglement of materials and discourse (2007: 89);</li>
+<li>From nature/culture binaries to patterns of difference (2007: 89);</li>
+<li>From reading against to reading through (2007: 90);</li>
+<li>From things to phenomena as objective referents (e.g., how phenomena produce boundaries or &quot;cuts&quot; between this and that) (2007: 90);</li>
+<li>From reflection to diffraction (2007: 90);</li>
+<li>From reification or simplification to fine-grained details (2007: 90); and</li>
+<li>From &quot;reflecting on representations&quot; to &quot;accounting for how practices matter&quot; (2007: 90).</li>
+</ul>
+<p>We could spend an entire term unpacking this list, or reading and discussing Barad's compelling book. At this point, though, I want to underscore ways we might refrain from assuming neat, material distinctions between authors, audiences, interpretation, and texts, or between design, matter, making, and form, or between inscription, transmission, circulation, and media. Barad: &quot;We do not uncover preexisting facts about independently existing things as they exist frozen in time like little statues positioned in the world. Rather, we learn about phenomena&mdash;about specific material configurations of the world's becoming. . . . <em>[P]ractices of knowing are specific material engagements that participate in (re)configuring the world</em>&quot; (2007: 90-91). In my experience, prototyping highlights how we change texts as we interpret them. It also stresses how texts do not determine their interpretations and are not neutral, inert, or transparent objects (e.g., that instrumentally translate input into output). From my perspective, they shape how we know and perceive the world, and this influence is contingent upon when, where, and how they are read as text, discourse, and matter.</p>
+<p>To conclude our postulations, we might ask how, in many ways, prototyping texts ultimately concerns what we mean by &quot;description&quot; in literary and cultural studies. Building on the work of Charles Sanders Peirce, <a href="http://jenteryteaches.com/noneshall/508/motenInTheBreak.pdf" target="_blank">Fred Moten uses the term, &quot;second iconicity&quot; (2003: 92), in his book, <em>In the Break</em>,</a> to demonstrate how writing not only refers to and represents experiences but also performs them through description (as opposed to explanation). Moten: &quot;we must attempt a description of an experience whose provenance or emergence is not reducible to logical structure, pictorial internal relation or internal similarity; it is an experience of the passage or cut that cannot be explained because those formulations upon which our explanations must be grounded . . . are themselves so profoundly without ground&quot; (2003: 92). For Moten, description allows us to notice aspects of experience and improvise with the materiality of language, the ontology of which is never stable or frozen. For us, perhaps prototypes may operate as suggestive or evocative descriptions, pointing to a gap between history (or attested states of texts) and possibilities (or conjectured states of texts). As such, prototyping is not really meant to uncover hidden dimensions of literature and culture or to explain them away. It is intended to perform and experiment with the contingencies of difference, and to identify which differences matter, when, and why. We'll discuss this later in the term, but I like to think that such an approach involves questioning the surface or face value of texts without relying too heavily (if at all) on suspicion.</p>
+
+<h2><a id="prototype"></a>What's a Prototype?</h2>
+<p>Let's start with the OED:</p>
+<p><em>proto-</em>: Prefixed to nouns and adjectives with the sense &quot;earliest, original; at an early stage of development, primitive; incipient, potential&quot;</p>
+<p><em>type</em>: etymology is French and Latin, but also Greek (τύπος impression, figure, type, < the root of τύπτειν to beat, strike); early (1500s), it is &quot;[t]hat by which something is symbolized or figured; anything having a symbolical signification; a symbol, emblem&quot;; later (1700s), it is &quot;[a] small rectangular block, usually of metal or wood, having on its upper end a raised letter, figure, or other character, for use in printing&quot;; shortly thereafter (late 1700s/early 1800s), &quot;[a] printed character or characters, or an imitation of these&quot;; and then later (1800s), it becomes &quot;[t]he general form, structure, or character distinguishing a particular kind, group, or class of beings or objects&quot;; importantly, the history of the word suggests an entanglement of technical and conceptual treatments</p>
+<p>And then we have prototype operating primarily as a noun (since the 1500s) or a verb (since the 1800s):</p>
+<ul>
+<li><em>prototype (1500s)</em>: &quot;[t]he first or primary type of a person or thing; an original on which something is modelled or from which it is derived; an exemplar, an archetype&quot;</li>
+<li><em>prototype (1800s)</em>: &quot;[t]o take as a prototype or model; to imitate&quot;</li>
+<li><em>prototype (1800s)</em>: &quot;[i]n early use: to originate, provide with a prototype. Now usually: to create a prototype of. Also intr.: to act as or create a prototype&quot;</li>
+<li><em>prototype (1900s)</em>: &quot;[i]n model-making: a full-size original of which a model is a representation on a reduced scale&quot;</li>
+<li><em>prototype (1900s)</em>: in electronics, &quot;[a] basic filter network (usually having series and shunt reactances in inverse proportion) with specified cut-off frequencies, from which other networks may be derived to obtain sharper cut-offs, constancy of characteristic impedance with frequency, etc.&quot;</li>
+<li><em>prototype (1900s)</em>: &quot;[a] first full-size working version of a new vehicle, machine, etc., of which further improvements may be made; a preliminary version made in small numbers for evaluation, or from which improved or modified versions may be developed&quot;</li>
+</ul>
+<p>How do we interpret this history? How might these various definitions inform the work we're doing this term? What tensions do we notice between, e.g., imitation and originating, or a symbol and a working version? What definitions or accounts are missing from the OED?</p>
+
+<h2><a id="typesof"></a>Types of Prototypes</h2>
+
+<p>If we want to use the term vaguely, then we can simply call any 508 text in progress&mdash;your text as image, ASCII, markup, type, or form&mdash;a prototype. In this sense, it's not far from a "draft." However, for a digital studies course, one benefit of "prototype" (instead of "draft") is the emphasis on testing. Your text as image, ASCII, markup, etc. is an experiment. It materializes and rehearses an idea or concept. "Prototype" also stresses the fact that texts are constructed or built, often with particular contexts and audiences in mind. (Call them "users," if you insist.) Like a draft, a prototype may be rough or unconvincing. It's not a finished product or publication. More important, it's linked to iterative development. You might call it "rapid prototyping": instead of constructing some ideal model or argument throughout the term and circulating it during Week 14 or 15, you're constantly experimenting with possibilities to see how people respond, what sticks, what's interesting, what surprises, and so on. Echoing Daniela Rosner (who will be on campus in March), prototyping is inquiry.</p>
+
+<p>But maybe we want to think in more concrete terms, toward more specific types of prototypes. Throughout the term thus far, I've heard various working descriptions of "prototype" pop up, in part from your projects and in part from the work of others (including materials we've read). So, inspired by seminar meetings as well as work by <a href="http://digitalhumanities.org/dhq/vol/3/4/000069/000069.html" target="_blank">Kari Kraus</a>, <a href="http://src-online.ca/index.php/src/article/view/222/415" target="_blank">Stan Ruecker</a>, and <a href="https://mitpress.mit.edu/books/speculative-everything" target="_blank">Anthony Dunne and Fiona Raby</a>, here are some types of prototypes we may consider when talking about textual production. Next to them (in parentheses) are their most pertinent dimensions of textual production, followed (after colons) by their aim in a given line of inquiry.</p>
+<ul>  
+<li><strong>Imitation</strong> (labour of the text): to better understand the composition of a text by learning the techniques involved in its production;</li>
+<li><strong>Forgery</strong> (economy of the text): to better understand the public perception and/or value of a text by learning the techniques involved in its production, but with intent to either deceive or reveal deception;</li> 
+<li><strong>Scenario</strong> (interaction with the text): to better understand how people may ultimately interpret a text by situating it in contexts of use and then observing those uses;</li> 
+<li><strong>Story</strong> (performance of the text): to better understand how a text gains cultural traction or builds identity by treating it as a script and performing it on or off record;</li>
+<li><strong>Counterfactual</strong> (norms or conditions of the text): to better understand the biases of a text (or common interpretations of it) by constructing "what-if" alternatives to specific aspects of its history, content, or composition (see <a href="http://www.karikraus.com/wp-content/uploads/2015/01/counterfactual_thinking_chi.pdf" target="_blank">Bonsignore <em>et al.</em></a>);</li>
+<li><strong>Model</strong> (logic or conventions of the text): to better understand the mode, form, genre, scale, or design of a text by rendering it an abstraction, using it to alter other texts (or aspects of itself), and determining why the changes are interesting (if at all);</li> 
+<li><strong>Glitch</strong> (negotiations with the text): to better understand hiccups or surprises in a text by isolating them, applying them procedurally or randomly to other texts (or aspects of itself), and determining why the changes are interesting (if at all); and</li>
+<li><strong>Wish</strong> (ideology of the text): to better understand the worldviews, belief systems, or desires of a text by increasing/decreasing their frequency, reversing them, or otherwise manipulating them and then determing why the changes are interesting (if at all).</li> 
+</ul>
+
+<p>Following our discussions of manifestos, each of these&mdash;as prototypes&mdash;may be considered a kind of "action writing" (see <a href="https://www.nytimes.com/books/98/04/26/bookend/bookend.html" target="_blank">Steven Marcus</a>). By using the subjunctive, they prompt testing or experimentation as well as interaction and repurposing. For each, context is incredibly important, too. At their most persuasive, they are not reducible to parody or postmodern irony, either.</p> 
+
+<h3><a id="vp"></a>Video Prototyping: Another Way to Express Use Scenarios</h3>
+
+<p>Last week, the relevance of use scenarios to prototyping came up, via examples, during seminar. One observation was that practices such as photography can give us a sense of how prototypes (including prototyped texts) may be integrated into environments, routines, or cultures. Often photography as well as video and 3D renderings are used to express what a prototype would do, or how it would be used, if it were actually built. This way, via a sort of <a href="http://jenteryteaches.com/noneshall/508/sterlingDesignFiction.pdf" target="_blank">design fiction</a>, it's steeped in a tangible narrative; it's part of a world. As you proceed with the term, I encourage you to consider photography and video for this sort of contextualization and projection. If you are unfamiliar with using video for such purposes, then you might want to watch the design fiction below. It was made at UVic, by Nina Belojevic and Jonathan O. Johnson, for an English 507 seminar. It accompanied an application they prototyped but didn't have time (in a single term) to build.</p>
+
+<iframe src="https://player.vimeo.com/video/65875992?color=ffffff&title=0&byline=0&portrait=0" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<h2><a id="isms"></a>The Role of -isms in the Seminar</h2>
+<p>For this seminar, I'm hoping we can test the above postulations and assumptions by selecting texts that meld aesthetics with politics and prototyping alternative verisons of them. For this sort of project, manifestos (specifically manifestos associated with artistic/literary movements) immediately came to mind. If we consider <a href="http://jenteryteaches.com/noneshall/508/cawsManifesto.pdf">Mary Ann Caws's work on manfiestos</a> (published in 2001), then we might describe manifestos as:</p>
+<ul>
+<li>public declarations (and often loud ones at that) (Caws 2001: xix),</li>
+<li>announcements of motives for forthcoming action (xix),<br /></li>
+<li>acts of deliberate manipulation (both aesthetic and political) (xix),</li>
+<li>rooted in the hand (manus) or handmade (xix),</li>
+<li>directives (usually against something) articulated by a specific &quot;we&quot; (xxi),</li>
+<li>serious, and frequently without irony (xxi),<br /></li>
+<li>situated in time, typically with an investment in being first (xxiii),</li>
+<li>instructive or pedagogical (xxiii),</li>
+<li>arranged or, indeed, designed (xxiii),</li>
+<li>efforts to label or categorize (even if loosely) (xxiv),</li>
+<li>duck, not decoration (xxv),</li>
+<li>written in the present tense (now!) (xxvi),</li>
+<li>advertisements (they sell themselves) (xxv), and</li>
+<li>subject to redefintion and recontextualization over time (xxviii-xxix).</li>
+</ul>
+<p>More on that last point: manifestos and movements are frequently adopted and adapted by other people down the line (consider the various manifestations of Futurism, e.g.). They endure shifts in media, formats, context, and even politics. In this sense, they undergo interpretation through alteration or perpetual redescription. They are not static texts, and what they represent (or how they represent) is not static, either.</p>
+<p>Here's the final set of questions for the day, then: what if we consider manifestos (or -isms) to be prototypes? How do they (if at all) pronounce a working version of a movement, asthetic, or idea? How are they (if at all) symbolic, and of what? What do they originate? How are they evaluated or tested? Why are the shortcomings or fallacies of this treatment (of manifesto as prototype)?</p>
+<p>Early in the seminar, I'm asking you to read <a href="http://jenteryteaches.com/noneshall/508/cawsManifesto.pdf">Caws</a> and, in your notebooks, draft your general impressions of at least five -isms active between 1870 and 1970. Please attend to the politics and aesthetics of each -ism, with notes on the historical particulars of when each occurred and why. Here's a list of -isms, but please feel free to cook up your own list: Symbolism, Cubism, Nowism, Futurism, Dada, Minimalism, Expressionism, Imagism, Vorticism, Constructivism, Realism, Surrealism, Thingism, Concretism, Verticalism, and Plasticism.</p>
+<p>You'll select an -ism for the term, together with a document (e.g., a manifesto) representative of that -ism, both of which you'll briefly present during seminar. Let me know if you have any questions!</p>
+
+<h2><a id="speculation"></a>Speculation as Inquiry</h2>
+<p>Regarding questions about &quot;what if&quot; analysis, below are a few ways we might approach speculation as inquiry.</p>
+<h3 id="speculating-about">Speculating About</h3>
+<p>In this paradigm, speculation might be historically oriented, anchored in what could or might have happened but nevertheless cannot be proved. In this sense, it may be about absences in the historical record or versions of historical materials (e.g., drafts, witnesses, editions, omissions, redactions, and remediations).</p>
+<p>Building on the work of <a href="https://books.google.com/books?id=9gQyAgAAQBAJ&amp;dq=speculative+everything+dunne&amp;source=gbs_navlinks_s">Dunne and Raby (2013: 3-6)</a> as well as Candy (2009), perhaps we could outline &quot;speculating about&quot; like so:</p>
+<ul>
+<li><em>Probable</em>: history that likely happened (something like the &quot;attested state&quot; of literary or cultural history upon which most scholarship is built),</li>
+<li><em>Plausible</em>: history that could have happened (something like an &quot;alternative state&quot; of literary or cultural history that most scholars would entertain as likely or persuasive),</li>
+<li><em>Possible</em>: history that potentially happened, or for which there is potential (something like a &quot;relatable&quot; or &quot;suggested state&quot; of literary or cultural history that most scholars could imagine), and</li>
+<li><em>Preferable</em>: history we (whoever &quot;we&quot; are) want to see in the world (something like a &quot;projected&quot; or &quot;necessary state&quot; of literary or cultural history that may be ignored, discounted, counterfactual, or fictional).</li>
+</ul>
+<h3 id="speculating-for-or-to">Speculating For or To</h3>
+<p>In this paradigm, speculation might be more goal-oriented, intertwined with critical or interpretive aims. For instance, we might prototype or alter texts to:</p>
+<ul>
+<li>Highlight biases about them and change them accordingly (e.g., what if this text literally says what we think it implies?),</li>
+<li>Make an argument about the relevance of their design (e.g., what if this text is an image, or what if it is &quot;plain&quot;?),</li>
+<li>Physically manifest ways of reading them (e.g., what if this text is its deconstruction?),</li>
+<li>Demonstrate how describing them is also interpreting them (e.g., what if this text includes its annotations or metadata?),</li>
+<li>Stress how remediating or reformatting them shapes access and interpretation (e.g., what if this text is only a PDF or TXT?),</li>
+<li>Thaw them, untether them from origin stories, or refuse claims that they are frozen in time (e.g., what if this text is a contemporary fiction?), or</li>
+<li>Repair them (e.g., what if what's missing from this text is returned to it?).</li>
+</ul>
+<p>With these cases in mind, we can explore how meaning is entangled with matter, or how we are not somehow separate from our objects of inquiry.</p>
+<h3 id="on-care-repair-and-stewardship">On Care, Repair, and Stewardship</h3>
+<p>Lately I've been thinking through the rhetoric of care, repair, and maintenance, and I wonder if it entails the assumption that something or someone needs to be fixed. Put differently, does it pathologize texts or history (to &quot;restore&quot; them)? Does it depend on a sort of critical hubris? While prototyping texts, can we have a care and repair paradigm without an investment in &quot;whole texts&quot; or &quot;complete history&quot;? For me, it seems like stewardship (as a critical or creative practice) is crucial here. So, too, are questions of agency: where do we locate it in acts of care, repair, interpretation, alteration, or prototyping? How is it about what texts, contexts, and critics do together?</p>
+
+<h2><a id="criticism"></a>Prototyping as Textual Criticism</h2>
+
+<p>We might describe prototyping as a form of textual criticism that:</p>
 <ul>
 <li><em>Performs a method or physically manifests a way of reading</em> through techniques such as imitation, alteration, scripting, repetition, simulation, recontextualization, modelling, counterfactuals, ruination, and trial-and-error testing, to name a few.</li>
 <li>Is interpreted or assessed based on its effectiveness as <em>an experiment</em>, or how persuasively it changes or isolates the systems through which texts and contexts afford meaning. Such systems may include matters of perception (e.g., how texts are seen or engaged), semantics (e.g., how signifiers relate and produce meaning), aesthetics (e.g., how texts are arranged and composed), politics (e.g., how texts enable or are embedded in ideologies), history (e.g., how texts are anchored in time and space but also move across them), materials (e.g., the stuff of which texts are made), and want or need (e.g., wishes, desires, uses, and applications).</li>
@@ -54,172 +230,9 @@
 <li>Raising questions about how we define, select, and refer to our source materials, which constantly change (e.g., across formats and settings).</li>
 </ul>
 
-<p>What's missing from these points? Or what's taken for granted?</p>
 
-<h2><a id="week10"></a>Week 10 | 7 March | Approaching Texts as Redactions + Glitches</h2>    
+<h2><a id="address"></a>Addressing Texts Addressing Us</h2>
 
-<p>For next week's seminar, we're going to redact and glitch your texts. Prior to that meeting, please hide, mask, or erase aspects of your selected text. As you do so, experiment with random and purposeful redactions. Then interpret the text as a redacted text. (Here, perhaps <a href="http://www.moma.org/collection/works/146983" target="_blank">Broodthaers</a> will interest.) Next, repeatedly compress and/or bend your text. Once again, experiment with randomness and purpose. (Here, perhaps <a href="https://blogs.loc.gov/digitalpreservation/2012/11/glitching-files-for-understanding-avoiding-screen-essentialism-in-three-easy-steps/" target="_blank">Owens</a> will help.) Then interpret the text as a glitch. If you wish, then feel free to turn your text into a bot, too, and interpret it as a bot. (To get started, I recommend <a href="http://www.zachwhalen.net/posts/how-to-make-a-twitter-bot-with-google-spreadsheets-version-04/" target="_blank">Whalen</a>. If you are interested in programming a bot, then let me know. I have examples I've written in Python.)</p>
-
-<p>Before or while you redact, glitch, and automate, please read Craze, <a target="_blank" href="http://jenteryteaches.com/noneshall/508/crazeDeadLetter.pdf">"In the Dead Letter Office,"</a> and Menkman, <a target="_blank" href="http://jenteryteaches.com/noneshall/508/menkmanVernacular.pdf">"Vernacular of File Formats."</a> As you read and experiment with your text, these questions may be relevant:</p>
-
-<ul>
-<li>With both redaction and glitch, when and why do absence, surprise, and trust become significant?</li>
-<li>How does your glitched text address questions of agency? How are you in control? And not?</li>
-<li>In its altered state, how is your selected text a symbol? An image? A surface? Noise? A sign (signifier and sign)?</li> 
-<li>How does your selected text make meaning as a glitch? As a redaction? As a bot?</li>
-<li>Do print texts or manuscripts have glitches? If so, how? If not, why?</li>
-<li>As a redaction, glitch, or bot, what is the function or use of your text?</li>
-<li>Are your glitches features or bugs? How are they random? Or not at all?</li>
-<li>What were your techniques for redaction, glitch, and&mdash;if applicable&mdash;automation (bot-making)? How were they politically, aesthetically, or historically relevant to the text at hand?</li>
-</ul>
-
-<p>Thanks! Let me know what questions or concerns you have.</p>
-       
-<h2><a id="week9pt2"></a>Week 9, Part 2 | 29 February | Approaching Texts in Reverse</h2>
-
-<p>For next week, the prototyping exercise involves reading <a href="http://jenteryteaches.com/noneshall/508/samuelsMcGannDeformance.pdf" target="_blank">Samuels and McGann's "Deformance and Interpretation"</a> and printing (on screen, off screen, or both) your selected text in reverse. Depending on your text, you may wish to reverse it at the level of the word, line, sentence, or paragraph. As or after you do, please write 250-750 words about the process and results, with Samuels and McGann in mind. Below are some questions to consider, too.</p>
-
-<p>In reverse, how does your text:
-<ul>
-<li>Sound when you read it aloud? How's the flow or rhythm?</li>
-<li>Maintain or lose its logic (if it ever cared about logic)? What claims does it still make? What claims no longer hold?</li>
-<li>Maintain or lose its form? Its aesthetic principles? Its surface? Its depth?</li>
-<li>Maintain or lose its politics? Its implicit or explicit assertions? Its warrants?</li>
-<li>Appear as an image? How does the shape or arrangement change? What does the negative space do?</li>
-<li>Induce laughter or surprise? What's there that you didn't consider before?</li>
-<li>Cohere (or not) with its typeface?</li>
-<li>Change its relation with you (as a reader)? What does it still assume? What does it no longer assume? What does it want or no longer want?</li>
-<li>Become a performance (instead of a stable object or inscription)?</li>
-</ul>
-
-<p>You may also want to experiment with recording yourself reading the text aloud before and after its reversal. For sound recording, I tend to use Audacity, but run with what's comfortable for you.</p>
-
-<p>Get in touch with any questions. Thanks, all!</p>
-
-<h2><a id="week9pt1"></a>Week 9, Part 1 | 29 February | More on Prototypes, Portfolios + Presentations</h2>
-
-<p>This term, we've used the word "prototype" to mean a lot. Perhaps too much? With that capaciousness in mind, I thought I'd take a second to describe the various meanings of "prototype" in the context of 508. Several of these meanings have only occurred to me recently, as a result of your work and our conversations.</p> 
-
-<h3>Types of Prototypes</h3>
-
-<p>If we want to use the term vaguely, then we can simply call any 508 text in progress&mdash;your text as image, ASCII, markup, type, or form&mdash;a prototype. In this sense, it's not far from a "draft." However, for a digital studies course, one benefit of "prototype" (instead of "draft") is the emphasis on testing. Your text as image, ASCII, markup, etc. is an experiment. It materializes and rehearses an idea or concept. "Prototype" also stresses the fact that texts are constructed or built, often with particular contexts and audiences in mind. (Call them "users," if you insist.) Like a draft, a prototype may be rough or unconvincing. It's not a finished product or publication. More important, it's linked to iterative development. You might call it "rapid prototyping": instead of constructing some ideal model or argument throughout the term and circulating it during Week 14 or 15, you're constantly experimenting with possibilities to see how people respond, what sticks, what's interesting, what surprises, and so on. Echoing Daniela Rosner (who will be on campus in March), prototyping is inquiry.</p>
-
-<p>But maybe we want to think in more concrete terms, toward more specific types of prototypes. Throughout the term thus far, I've heard various working descriptions of "prototype" pop up, in part from your projects and in part from the work of others (including materials we've read). So, inspired by seminar meetings as well as work by <a href="http://digitalhumanities.org/dhq/vol/3/4/000069/000069.html" target="_blank">Kari Kraus</a>, <a href="http://src-online.ca/index.php/src/article/view/222/415" target="_blank">Stan Ruecker</a>, and <a href="https://mitpress.mit.edu/books/speculative-everything" target="_blank">Anthony Dunne and Fiona Raby</a>, here are some types of prototypes we may consider when talking about textual production. Next to them (in parentheses) are their most pertinent dimensions of textual production, followed (after colons) by their aim in a given line of inquiry.</p>
-<ul>  
-<li><strong>Imitation</strong> (labour of the text): to better understand the composition of a text by learning the techniques involved in its production;</li>
-<li><strong>Forgery</strong> (economy of the text): to better understand the public perception and/or value of a text by learning the techniques involved in its production, but with intent to either deceive or reveal deception;</li> 
-<li><strong>Scenario</strong> (interaction with the text): to better understand how people may ultimately interpret a text by situating it in contexts of use and then observing those uses;</li> 
-<li><strong>Story</strong> (performance of the text): to better understand how a text gains cultural traction or builds identity by treating it as a script and performing it on or off record;</li>
-<li><strong>Counterfactual</strong> (norms or conditions of the text): to better understand the biases of a text (or common interpretations of it) by constructing "what-if" alternatives to specific aspects of its history, content, or composition (see <a href="http://www.karikraus.com/wp-content/uploads/2015/01/counterfactual_thinking_chi.pdf" target="_blank">Bonsignore <em>et al.</em></a>);</li>
-<li><strong>Model</strong> (logic or conventions of the text): to better understand the mode, form, genre, scale, or design of a text by rendering it an abstraction, using it to alter other texts (or aspects of itself), and determining why the changes are interesting (if at all);</li> 
-<li><strong>Glitch</strong> (negotiations with the text): to better understand hiccups or surprises in a text by isolating them, applying them procedurally or randomly to other texts (or aspects of itself), and determining why the changes are interesting (if at all); and</li>
-<li><strong>Wish</strong> (ideology of the text): to better understand the worldviews, belief systems, or desires of a text by increasing/decreasing their frequency, reversing them, or otherwise manipulating them and then determing why the changes are interesting (if at all).</li> 
-</ul>
-
-<p>Following our discussions of manifestos, each of these&mdash;as prototypes&mdash;may be considered a kind of "action writing" (see <a href="https://www.nytimes.com/books/98/04/26/bookend/bookend.html" target="_blank">Steven Marcus</a>). By using the subjunctive, they prompt testing or experimentation as well as interaction and repurposing. For each, context is incredibly important, too. At their most persuasive, they are not reducible to parody or postmodern irony, either.</p> 
-
-<p>What do you think? What's missing, what's off, or what's embellished? Obviously, the list isn't exhaustive or definitive. Looking forward to chatting more.</p>
-
-<h3>Your Portfolios</h3>
-
-<p>Here's a draft list of what should be included in your portfolio. Let's discuss and determine if it's clear and reasonable. Proposed due date: Friday, April 15th.</p>
-<ul>
-<li>Author's statement (750-1250 words);</li>
-<li>Four (and only four) prototypes from notebook (prototypes can be revised since notebook; one of the prototypes must be your "capstone" prototype);</li>
-<li>A title for each prototype;</li>
-<li>A description (~50 words) of each prototype;</li>
-<li>References and further reading (MLA format; not just a works cited);</li>
-<li>May be digital, tactile, offline, online, or a combination of any/all of these; and</li>
-<li>Across the materials, but especially in the author's statement, attention to the particulars of history, aesthetics, politics, and material composition of your selected -ism (in general) and selected text(s) (in particular).</li>
-</ul>
-
-<p>In short, the portfolio should exhibit a variety of interpretations and types of "action writing," with an emphasis on fine-grained details. Awareness of these details should emerge from your prototyping as a form of research and inquiry.</p>
-
-<h3>Your Presentations</h3>
-
-<p>Also, here's a draft list of what should be included in your presentation. Let's discuss and determine if it, too, is clear and reasonable. The presentations will be conducted on Monday, April 4th.</p>
-<ul>
-<li>Your "capstone" prototype, based on your own exercise, responding to "_____ It";</li>
-<li>Tactile material to present (on a table, stand, or the like; cannot be displayed solely on a screen);</li>
-<li>Five-minute talk about your selected text, prototype, prototyping method, and findings/interpretations (should stress interesting details emerging from the inquiry; please practice this talk in advance); and</li>
-<li>For the poster, a tagline following this convention: A ____ of ____ist _____ (e.g., a ruination of Cubist emotion, an imitation of Expressionist linocuts, and a model of Orphist simultaneity).</li>
-
-<p>What do you think? Anything missing? Is this too much? (I'll make the poster + announcement.)</p>
-
-<h2><a id="week8"></a>Week 8 | 22 February | Approaching Texts as Forms</h2>
-
-<p>Next week we'll shift from discussions of typography to prototyping texts as forms. Here, I don't mean "form" in any grand sense, such as Platonic form or Northrop Frye's continuity of form. I mean Kafka's sort of form: the forms of bureaucracy, or the forms we don't want to complete but must. Boring forms. Required forms. Official forms. Forms meant for files. We might think of them as online profiles or polls, too. After all, it feels like the internet runs on fillable blanks.</p>
-
-<p>We'll start by reading <a href="http://jenteryteaches.com/noneshall/508/gitelmanShortHistory.pdf" target="_blank">Lisa Gitelman's "A Short History of _____."</a> There, Gitleman makes numerous compelling arguments for how blanks structure knowledge and reproduce culture. She also writes this wonderful sentence: "Blanks are printed and used, not . . . authored or read" (25). For this particular prototype, feel free to interpret "print" as not only "print to paper" but also "print to screen."</p>
-
-<p>How to make your selected text a form? Add blanks to it. This may involve removing text or other features. But please create at least one version of your text as a form <em>and</em> have at least two people complete it. The form can be on- or off-screen, or both. As with other prototypes this term, it would also be great if you could write 250-750 words about the prototyping as inquiry. What does making a text to be printed and used (not authored or read) tell you? How does changing your selected text this way shape its politics and aesthetics?</p>
-
-<p>As you read and prototype, here are some questions you may wish to consider, with parenthetical citations of "A Short History of ____," where applicable:</p>
-<ul>
-<li>With the addition of blanks, how does your text become formulaic? What would be its vernacular habits? Consider ledgers and daybooks here. (22)</li>
-<li>On what sort of paper is it printed or written? Is the paper ruled? (23)</li>
-<li>If you describe it as a "blank form," then in what offices or locations might you find it? Who would issue it? Who would complete it? (24)</li>
-<li>How does it incite manuscript? (26)</li>
-<li>How does it imagine data? That is, how are the blanks also metadata, and what types of data do they request or require? (26; see Alan Liu's work here, too)</li>
-<li>How are the blanks indications of what's missing? What do they assume about absence? How do they create absence? Are they nominal blanks (see Swift and Poe)? (27)</li>
-<li>How do the blanks divide or organize mental labour? How do they "make bureaucracy"? (30)</li>
-<li>Could you say your blanks have subjectivities? If so, then how would you describe them? How are they "interactive"? How are they not at all? (31)</li>
-<li>What makes your text-as-form official? Or how did you make it appear official, and why? (32)</li>
-<li>How would it be standardized for, say, mass production? With which publics in mind? (37)</li>
-<li>How is it, or would it be, ephemeral? For instance, consider the everydayness of job printing. (40)</li>
-<li>With what place and time would you associate it? (43)</li>
-<li>How is it instrumental? How is it not? (48)</li>
-<li>How does it appear like amateur work? To what effects on its authority? (52)</li>
-<li>How are the blanks also fields? Can they regulate, automate, or correct what's entered?</li>
-<li>What sort of characters can be entered in the blanks? Alphanumeric? Only numeric? Only alpha?</li>
-<li>Which fields are open text? Which are drop-down menus? Why?</li>
-<li>Which fields are required? Optional? Why?</li> 
-<li>Which fields use input masks? How? Why?</li>
-<li>Which fields have character limits? What's the limit? Why?</li>
-<li>Once it is entered, where does the data go? How is it stored? Where is it housed? How is it found? How is it visualized or expressed?</li>
-<li>Once they complete the form, do people get any sort of confirmation? If so, then who or what provides that confirmation?</li>
-<li>Why would people want to avoid the form at all costs? How does it produce frustration or misery?</li>
-</ul>
-<p>Looking forward to seeing what you cook up for this prototype. In the meantime, please let me know if you have any questions or concerns. Happy to help! All I ask is that you complete <a href="http://www.jenterysayers.com/contact-jentery/" target="_blank">this form</a>.</p>
-
-<h2><a id="week7"></a>Week 7 | 15 February | Approaching Texts as Type</h2>
-
-<p>For Week 8, we're going to talk typography, building on work by <a target="_blank" href="http://jenteryteaches.com/noneshall/508/bringhurstElements.pdf" target="_blank">Robert Bringhurst</a>. As or after you read this excerpt of <a href="http://jenteryteaches.com/noneshall/508/bringhurstElements.pdf" target="_blank"><em>The Elements of Typographic Style</em></a>, please experiment with your selected text by changing its letterform (including its typeface) at least once, but ideally two or three times, and then printing at least one iteration in pamphlet form. If you do print more than one sheet, then you may want to consider stapling the sheets together. Feel free, too, to experiment with folding them, like a leaflet. And so on.</p>
-
-<p>During this process of reading Bringhurst, changing the letterform, and printing your materials, below are some questions you might find helpful. They build directly on Bringhurst's scholarship (see the page numbers next to them). As you've done with previous experiments, feel free to respond to a few of these questions with 250-750 words.</p>
-
-<ul>
-<li>How does the typography make visual sense? (9)</li>
-<li>How does the typography make historical sense? With what historical period would you associate it? (9, 12-15)</li>
-<li>Describe the stroke, slope, axis, and serifs. Consider terminology such as "abrupt," "adnate," "aperture," "lachrymal," and "modulated." (12-13)</li>
-<li>How does the typography honour content? How doesn't it? (17-18)</li>
-<li>How does the typography creatively interfere, or not interfere, with letters? (19)</li>
-<li>How is the typography an act of interpretation? (19)</li>
-<li>What is the outer logic of the typography? In what relation to the logic or aims of the text? (20)</li>
-<li>How does the typography make visible the relationship between text and other elements? How doesn't it? (21)</li>
-<li>What is a typeface that doesn't honour or elucidate the text? How does it read? What visual or historical features enable its disrespect for the text? (22)</li>
-<li>How does the typography invite readers? How doesn't it? (24)</li>
-<li>What are the incidental details that especially matter? (24)</li>
-<li>If the typeface were a person, then who would it be?</li>
-<li>What are three or four adjectives that succinctly describe the typography?</li>
-<li>How does the typography read up close, in print? From a distance?</li>
-<li>How does the typography read up close, on a screen? From a distance?</li>
-<li>On screen or in print, how does the typography read upside down? Sideways?</li>
-<li>Returning for a moment to our ongoing conversations about source material and labour, how might you follow your selected text to the printer? What paths would you take, what processes would be involved, and who (author, editor, typographer, publisher, printer, reader, librarian) might you speak to? What decisions or judgments do these people make? (194)</li>
-<li>Octothorp(e)? Swung dash? Tilde? Virgule? Dingbat? Muttons? Kern? Swash?</li>
-</ul>
-
-<p>As you conduct these experiments, you may also find Ellen Lupton's <a href="http://thinkingwithtype.com/" target="_blank">Thinking with Type</a> informative. I have! Let me know what questions pop up as you proceed. Thanks, all!</p>
-
-<h2><a id="week6"></a>Week 6 | 8 February | Elevator Sequence</h2>
-
-<p>We're between levels. Take a quick nap?</p>
-
-<h2><a id="week5"></a>Week 5 | 1 February | Approaching Texts as Plain Text + Markup</h2>
-
-<p>For Week 7 (with Week 6 being Reading Break), we'll approach your -isms and selected texts as both plain text and markup. More on that in a second. First, I want to recap some consequences of interpreting texts as images.</p>
-
-<h3><a id="image"></a>What Do Texts Want?</h3>
 <p>After our conversations during seminar last week (thanks for those!), I've been summarizing the effects of treating texts as images. We might consider how:</p>
 <ul>
 <li>Texts function as public documents, intended for passersby. Here, negative space, lines, typefaces, and font size are especially important (e.g., graphic design). As image, the text wants your attention. It is charged. It is read from a distance.</li>
@@ -239,73 +252,74 @@
 </ul>
 <p>Thoughts? From our discussions last week, what I am missing or misrepresenting?</p>
 
-<h3><a id="plain"></a>Text as Plain Text</h3>
+<h2><a id="academic"></a>Approaching Academic Writing</h2>
+<p>If you are looking for ways to read scholarly articles and publications, then I recommend <a target="_blank" href="http://caseyboyle.net/2016/01/16/something-like-a-reading-ethics/">Boyle's &quot;...Something Like a Reading Ethics,&quot;</a> especially the &quot;Ethical Reading&quot; section, which Boyle summarizes like so:</p>
+<p><em>Steps for faster and productive reading</em></p>
+<p>Overview</p>
+<ol>
+<li>Skim through the work noting the title, chapter, subtitles, indices, etc.</li>
+<li>Read the introduction &amp; conclusion</li>
+<li>Fill in the rest by reading through the work</li>
+</ol>
+<p><em>Engagement</em></p>
+<ol>
+  <li>Exigence (identify the writer's articulation of the exigence)</li>
+  <li>Response (identify what the writer is bringing in response to exigence).</li>
+  <li>Key Terms/Words (locate the key terms and concepts)</li>
+  <li>Key Citations (3-4 key citations the work relies on)</li>
+  <li>Questions (understanding and critique)</li>
+  <li>Speculative Response (speculate how a writer might respond to Questions in Step 5). (See <a target="_blank" href="http://caseyboyle.net/2016/01/16/something-like-a-reading-ethics/">Boyle 2016</a>: n. pag.)</li>
+</ol>
 
-<p>During Week 7, we'll discuss plain text as a legacy, culture, concept, and format. Prior to that meeting, please read Chapter 3 of Tenen's <a href="http://jenteryteaches.com/noneshall/508/tenenPlainText.pdf"><em>Plain Text</em></a>. Also, in your notebook, please experiment with examining your -ism and selected text as plain text. From my perspective, this may involve transcribing some or all of it into a text editor, such as TextEdit, Notepad++, Sublime, or TextWrangler, and then saving it as a TXT file. (By default, you should have a text editor on your computer. If you need help locating or using an editor, then just let me know.)</p>
-
-<p>Once you have a TXT file ready to hand (or written to disk), you might consider the questions below. Ideally, as you interpret your selected text as TXT, these questions prompt considerations of what's lost and gained in the shift to plain text. (Again, I imagine 250 to 750 words should suffice for an entry. You may also want to push your TXT file to a remote server for public or private circulation.)</p>
-
-<p>As plain text:</p>
+<h2><a id="images"></a>Approaching Texts as Images</h2>
+<p>During seminar, we'll approach your selected texts and -isms as images. Initially, can you be quite literal about this? Please photograph at least one page of text, or scan it, or find it online, as a TIFF, JPG, or PNG. Then push the file(s) to your webspace.</p>
+<p>Once you have a version of it as an image file (or multimple image files), consider printing it out and hanging it somewhere. Look at it from a distance, as it is expressed on a wall or screen. Look at it closely, too.</p>
+<p>Then take some notes on your -ism as an image. Here, consider turning language into a picture, pages into space, signs into graphics. As you take notes, feel free to write informally, with screen or paper (or across the two). Try point form or lists of observations. They are notes after all, and I imagine you can address these exercises using somewhere between 250 and 750 words per entry (or per week) this term. The important bit is that you've thought through the exercise at hand, using an altered version of your selected text and -ism. Think of these exercises as acts of thorough description, if you will.</p>
+<p>Building on work by <a href="http://jenteryteaches.com/noneshall/508/druckerFiguringTheWord.pdf" target="_blank">Drucker</a> and <a href="http://jenteryteaches.com/noneshall/508/mitchellWhatPictures.pdf" target="_blank">Mitchell</a>, you might consider some of the questions below while approaching text as image. (No need to address every question in writing, tho.) I've organized the questions using three categories, which we can discuss during seminar.</p>
+<h3>Arrangement and Form</h3>
+<p>As an image:</p>
 <ul>
-<li>What important formatting does your text lack? What happens to its style?</li>
-<li>What happens to the role of the page? The paragraph? The line? The book?</li>
-<li>Where is it written or stored?</li>
-<li>How do you navigate it?</li>
-<li>How heavy is it? Or how large is it? (Consider file size here. Compare it with an MP3, MP4, JPG, or PDF file.)</li>
-<li>How is it legible? For whom or what?</li>
-<li>How is it processed? (Consider running it through <a href="http://voyant-tools.org/" target="_blank">Voyant</a>.)</li>
-<li>Where are other texts like it? Why are those texts available, or not available, in TXT? (Check out <a href="http://www.gutenberg.ca/#h2completecatalogue" target="_blank">Project Gutenberg</a>, <a href="https://archive.org/details/texts" target="_blank">Internet Archive</a>, or <a href="https://www.hathitrust.org/" target="_blank">HathiTrust</a>.)</li>
-<li>How is it mutable? Ephemeral? Persistent?</li>
-<li>How can you get rid of it? How do you delete it?</li>
-<li>How can you annotate it?</li>
-<li>What does it look like on a laptop? On a desktop? On a mobile phone? On paper?</li>
-<li>What are the contexts for reading and interpreting it? When do people read plain text, or want/need plain text? What do those scenarios look like? What are the stories or routines of plain text?</li>
-<li>In terms of its content, what interesting interpretations emerge? How, if at all, do you interpret it differently as plain text?</li>
-<li>What if you interpreted it as the original, or without any reference to another version?</li>
-<li>When is its transcription also editing? Description? Alteration?</li>
-<li>How would you feel about <a href="https://en.wikipedia.org/wiki/Voyager_Golden_Record" target="_blank">sending it into interstellar space</a>, for extraterrestrial life forms or other humans to find in the future? Is plain text your preferred format for the long now of reading?</li>
+<li>How is it whole? Fragmented? What are its parts? What brings it together?</li>
+<li>How is it bright? Dull? Charged?</li>
+<li>What is large or prevalent? What is small or scarce?</li>
+<li>What is space doing? Where is it present? Assertive? Reduced?</li>
+<li>How does it express time? Movement? Change?</li>
+<li>Where are its lines? Where do they go? What do they align? Split? Demarcate?</li>
+<li>What are its faces? What do they say or suggest?</li>
+<li>What is its aesthetic vision? Does it have an aesthetic vision?</li>
+<li>Where is its center, and where are its edges?</li>
+<li>Where is it consistent, and where is it erratic?</li>
 </ul>
-
-<h3><a id="markup"></a>Text as Markup</h3>
-
-<p>During Week 7, we'll also interpret text as markup, with a bias toward HTML5. For that discussion, we don't have any reading, but&mdash;to prepare for Week 7&mdash;we will have a workshop on writing HTML5 during Week 5. I'm also asking you to interpret your text as markup (using 250-750 words in your notebook). Personally, I'd start with the plain text exercise and then encocde the TXT file as an HTML file. If you prefer, then you can write HTML by hand in your notebook. I'm not asking you to compile it in a browser. If you wish, then you are also welcome to push your HTML5 file(s) to a remote server for public or private circulation.</p>
-
-<p>As you encode your selected text (or chunks of it) in HTML5, I recommend consulting <a href="http://jenteryteaches.com/noneshall/508/html5.pdf" target="_blank">this HTML5 cheat sheet</a> (especially Page 1). If you grow interested in writing HTML5 for the web, then you might also want to consult <a href="http://jenteryteaches.com/noneshall/508/css3.pdf" target="_blank">this CSS3 cheat sheet</a> for style and formatting. If you are looking for a basic page of HTML5 that references or calls CSS3, then see <a href="https://github.com/jentery/508/blob/gh-pages/sample.html" target="_blank">this sample HTML page</a> I wrote. It includes Dublin Core metadata for bibliography. <a href="http://jentery.github.io/508/sample.html" target="_blank">This is what it looks like in a browser.</a></p>
-
-<p>Unless you want to, there's no need to go too deep into HTML5 for the purposes of this exercise. On paper or in a text editor, consider using the p, a, h, head, and body tags. If you want to push an HTML file to the web, then I recommend <a href="https://validator.w3.org/" target="_blank">running it through a validator</a>. Valid markup is more accessible. As you work through the encoding process, feel free to drop me a line. I'm working on the assumption that you're new to markup.</p>
-
-<p>Once you've encoded your selected text with a bit of markup, you might consider the questions below, if only for the sake of interpretation. You'll see that I've simply copied and pasted some of the questions from the <a href="#plain">plain text bit</a> above. It's not that I'm being lazy. There's just a lot of overlap here.</p>
-<p>As markup:</p>
+<h3>Meanings and Subject Matter</h3>
+<p>As an image:</p>
 <ul>
-<li>How does your text separate style from content? Where is the content? Where is the style?</li>
-<li>How is your text interactive? How does markup increase or decrease interaction?</li>
-<li>How are tags acts of description, alteration, or interpretation? To what effects?</li>
-<li>What happens to the role of the page? The paragraph? The line? The book?</li>
-<li>Where is it written or stored?</li>
-<li>How do you navigate it?</li>
-<li>How heavy is it? Or how large is it? (Consider file size here. Compare it with an MP3, MP4, JPG, TXT, or PDF file.)</li>
-<li>How is it legible? For whom or what?</li>
-<li>What are the implications of treating it as "valid" or "not valid"?</li>
-<li>Why bother knowing how to encode your text? Why not use a WYSIWYG (what-you-see-is-what-you-get) editor, such as those included with WordPress or Weebly?</li>
-<li>How is it processed? (Consider running it through <a href="http://voyant-tools.org/" target="_blank">Voyant</a>.)</li>
-<li>Where are other texts like it? Why are those texts available, or not available, in HTML? (Check out <a href="http://www.gutenberg.ca/#h2completecatalogue" target="_blank">Project Gutenberg</a>, <a href="https://archive.org/details/texts" target="_blank">Internet Archive</a>, or <a href="https://www.hathitrust.org/" target="_blank">HathiTrust</a>.)</li>
-<li>How is it mutable? Ephemeral? Persistent?</li>
-<li>How can you get rid of it? How do you delete it?</li>
-<li>How can you annotate it?</li>
-<li>What does it look like on a laptop? On a desktop? On a mobile phone? On paper?</li>
-<li>What are the contexts for reading and interpreting it? When do people read HTML, or want/need HTML? What do those scenarios look like? What are the stories or routines of HTML?</li>
-<li>In terms of its content, what interesting interpretations emerge? How, if at all, do you interpret it differently as HTML?</li>
-<li>What if you interpreted it as the original, or without any reference to another version?</li>
-<li>How would you feel about <a href="https://en.wikipedia.org/wiki/Voyager_Golden_Record" target="_blank">sending it into interstellar space</a>, for extraterrestrial life forms or other humans to find in the future? Is HTML your preferred format for the long now of reading?</li>
+<li>What is its message? Its effect?</li>
+<li>What is it a portrait of? An abstraction of? A photograph of?</li>
+<li>What are its figures or subjects? How are they placed or arranged?</li>
+<li>What is its landscape? How do figures or subjects relate or stand on this landscape?</li>
+<li>How would the figures or subjects be classified or categorized?</li>
+<li>How is it an instrument of meaning? A vehicle for values?</li>
+<li>What is marked? What isn't? What is the default?</li>
+<li>How is it legible? Illegible?</li>
+<li>What does it represent, and what does it measure?</li>
+<li>If it had a caption, then what would that caption be?</li>
+<li>If it were a meme, then what would it be?</li>
 </ul>
+<h3>Relations and Entanglements</h3>
+<p>As an image:</p>
+<ul>
+<li>How is it a subject? An object? An interface (or a middle)?</li>
+<li>How does it prompt dialogue? Recollection?</li>
+<li>How does it refuse or invite interaction? Touch?</li>
+<li>How is it intimate? Cold? Provocative? Subtle? Boring? Indifferent?</li>
+<li>What does it want? What does it ask for?</li>
+<li>If it were a person, machine, or nonnhuman animal, then who/what would it be?</li>
+<li>What does it reflect? Diffract? Absorb? Ignore?</li>
+</ul>
+<h3>Related Reading</h3>
+<p>If you are interested in the history of writing and graphic design, then you might want to peruse <a target="_blank" href="http://jenteryteaches.com/noneshall/508/druckerMcVarishGraphicDesignHistory.pdf">Drucker and McVarish's <em>Graphic Design History</em></a>. Its account is quite extensive.</p>
 
-<h3><a id="vp"></a>Video Prototyping: Another Way to Express Use Scenarios</h3>
-
-<p>Last week, the relevance of use scenarios to prototyping came up, via examples, during seminar. One observation was that practices such as photography can give us a sense of how prototypes (including prototyped texts) may be integrated into environments, routines, or cultures. Often photography as well as video and 3D renderings are used to express what a prototype would do, or how it would be used, if it were actually built. This way, via a sort of <a href="http://jenteryteaches.com/noneshall/508/sterlingDesignFiction.pdf" target="_blank">design fiction</a>, it's steeped in a tangible narrative; it's part of a world. As you proceed with the term, I encourage you to consider photography and video for this sort of contextualization and projection. If you are unfamiliar with using video for such purposes, then you might want to watch the design fiction below. It was made at UVic, by Nina Belojevic and Jonathan O. Johnson, for an English 507 seminar. It accompanied an application they prototyped but didn't have time (in a single term) to build.</p>
-
-<iframe src="https://player.vimeo.com/video/65875992?color=ffffff&title=0&byline=0&portrait=0" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<h2><a id="week4"></a>Week 4 | 25 January | Approaching Texts as Metadata</h2>
+<h2><a id="metadata"></a>Approaching Texts as Metadata</h2>
 
 <p>The prototyping process for Week 5 will be about expressing your selected texts as metadata, or data about data, which is central to how materials are classified, archived, searched, and found. If you are new to metadata, then think about how music in iTunes is categorized and sorted (genre, date, album, composer). You might also check out the <a href="http://dublincore.org/documents/dces/" target="_blank">Dublin Core element set</a>. (Dublin as in Ohio, not Ireland.) It's a flexible (perhaps too flexible?) vocabulary for describing materials, and it's commonly used across collections platforms, such as <a href="http://omeka.net/" target="_blank">Omeka</a>.</p>
 
@@ -368,205 +382,160 @@
 
 <p>As you read through these questions, let me know of any concerns, including any concerns about Dublin Core or the gestures Schnapp makes throughout his chapter. Thank you!</p>
 
-<h2><a id="week3"></a>Week 3 | 18 January | Approaching Texts as Images</h2>
-<p>Next week, we'll approach your selected texts and -isms as images. Initially, can you be quite literal about this? Please photograph at least one page of text, or scan it, or find it online, as a TIFF, JPG, or PNG. Then push the file(s) to your webspace.</p>
-<p>Once you have a version of it as an image file (or multimple image files), consider printing it out and hanging it somewhere. Look at it from a distance, as it is expressed on a wall or screen. Look at it closely, too.</p>
-<p>Then take some notes on your -ism as an image. Here, consider turning language into a picture, pages into space, signs into graphics. As you take notes, feel free to write informally, with screen or paper (or across the two). Try point form or lists of observations. They are notes after all, and I imagine you can address these exercises using somewhere between 250 and 750 words per entry (or per week) this term. The important bit is that you've thought through the exercise at hand, using an altered version of your selected text and -ism. Think of these exercises as acts of thorough description, if you will.</p>
-<p>Building on <a href="http://jenteryteaches.com/noneshall/508/druckerFiguringTheWord.pdf" target="_blank">Drucker</a> and <a href="http://jenteryteaches.com/noneshall/508/mitchellWhatPictures.pdf" target="_blank">Mitchell</a>, you might consider some of the questions below while approaching text as image. (No need to address every question in writing, tho.) I've organized the questions using three categories, which we can discuss during seminar.</p>
-<h3>Arrangement and Form</h3>
-<p>As an image:</p>
-<ul>
-<li>How is it whole? Fragmented? What are its parts? What brings it together?</li>
-<li>How is it bright? Dull? Charged?</li>
-<li>What is large or prevalent? What is small or scarce?</li>
-<li>What is space doing? Where is it present? Assertive? Reduced?</li>
-<li>How does it express time? Movement? Change?</li>
-<li>Where are its lines? Where do they go? What do they align? Split? Demarcate?</li>
-<li>What are its faces? What do they say or suggest?</li>
-<li>What is its aesthetic vision? Does it have an aesthetic vision?</li>
-<li>Where is its center, and where are its edges?</li>
-<li>Where is it consistent, and where is it erratic?</li>
-</ul>
-<h3>Meanings and Subject Matter</h3>
-<p>As an image:</p>
-<ul>
-<li>What is its message? Its effect?</li>
-<li>What is it a portrait of? An abstraction of? A photograph of?</li>
-<li>What are its figures or subjects? How are they placed or arranged?</li>
-<li>What is its landscape? How do figures or subjects relate or stand on this landscape?</li>
-<li>How would the figures or subjects be classified or categorized?</li>
-<li>How is it an instrument of meaning? A vehicle for values?</li>
-<li>What is marked? What isn't? What is the default?</li>
-<li>How is it legible? Illegible?</li>
-<li>What does it represent, and what does it measure?</li>
-<li>If it had a caption, then what would that caption be?</li>
-<li>If it were a meme, then what would it be?</li>
-</ul>
-<h3>Relations and Entanglements</h3>
-<p>As an image:</p>
-<ul>
-<li>How is it a subject? An object? An interface (or a middle)?</li>
-<li>How does it prompt dialogue? Recollection?</li>
-<li>How does it refuse or invite interaction? Touch?</li>
-<li>How is it intimate? Cold? Provocative? Subtle? Boring? Indifferent?</li>
-<li>What does it want? What does it ask for?</li>
-<li>If it were a person, machine, or nonnhuman animal, then who/what would it be?</li>
-<li>What does it reflect? Diffract? Absorb? Ignore?</li>
-</ul>
-<h3>Related Reading</h3>
-<p>If you are interested in the history of writing and graphic design, then you might want to peruse <a target="_blank" href="http://jenteryteaches.com/noneshall/508/druckerMcVarishGraphicDesignHistory.pdf">Drucker and McVarish's <em>Graphic Design History</em></a>. Its account is quite extensive.</p>
-<p>If you are looking for ways to read scholarly articles and publications, then I recommend <a target="_blank" href="http://caseyboyle.net/2016/01/16/something-like-a-reading-ethics/">Boyle's &quot;...Something Like a Reading Ethics,&quot;</a> especially the &quot;Ethical Reading&quot; section, which Boyle summarizes like so:</p>
-<p><em>Steps for faster and productive reading</em></p>
-<p>Overview</p>
-<ol><ol>
-<li>Skim through the work noting the title, chapter, subtitles, indices, etc.</li>
-<li>Read the introduction &amp; conclusion</li>
-<li>Fill in the rest by reading through the work</li>
-</ol></ol>
-<p><em>Engagement</em></p>
-<ol><ol>
-  <li>Exigence (identify the writer's articulation of the exigence)</li>
-  <li>Response (identify what the writer is bringing in response to exigence).</li>
-  <li>Key Terms/Words (locate the key terms and concepts)</li>
-  <li>Key Citations (3-4 key citations the work relies on)</li>
-  <li>Questions (understanding and critique)</li>
-  <li>Speculative Response (speculate how a writer might respond to Questions in Step 5). (See <a target="_blank" href="http://caseyboyle.net/2016/01/16/something-like-a-reading-ethics/">Boyle 2016</a>: n. pag.)</li>
-</ol></ol>
+<h2><a id="plain"></a>Approaching Text as Plain Text (ASCII)</h2>
 
-<h2><a id="week2"></a>Week 2 | 11 January | More on the Notion of "Speculation"</h2>
-<p>Picking up on our conversation last week, especially questions about &quot;what if&quot; analysis, below are a few ways we might approach speculation as inquiry.</p>
-<h3 id="speculating-about">Speculating About</h3>
-<p>In this paradigm, speculation might be historically oriented, anchored in what could or might have happened but nevertheless cannot be proved. In this sense, it may be about absences in the historical record or versions of historical materials (e.g., drafts, witnesses, editions, omissions, redactions, and remediations).</p>
-<p>Building on the work of <a href="https://books.google.com/books?id=9gQyAgAAQBAJ&amp;dq=speculative+everything+dunne&amp;source=gbs_navlinks_s">Dunne and Raby (2013: 3-6)</a> as well as Candy (2009), perhaps we could outline &quot;speculating about&quot; like so:</p>
-<ul>
-<li><em>Probable</em>: history that likely happened (something like the &quot;attested state&quot; of literary or cultural history upon which most scholarship is built),</li>
-<li><em>Plausible</em>: history that could have happened (something like an &quot;alternative state&quot; of literary or cultural history that most scholars would entertain as likely or persuasive),</li>
-<li><em>Possible</em>: history that potentially happened, or for which there is potential (something like a &quot;relatable&quot; or &quot;suggested state&quot; of literary or cultural history that most scholars could imagine), and</li>
-<li><em>Preferable</em>: history we (whoever &quot;we&quot; are) want to see in the world (something like a &quot;projected&quot; or &quot;necessary state&quot; of literary or cultural history that may be ignored, discounted, counterfactual, or fictional).</li>
-</ul>
-<h3 id="speculating-for-or-to">Speculating For or To</h3>
-<p>In this paradigm, speculation might be more goal-oriented, intertwined with critical or interpretive aims. For instance, we might prototype or alter texts to:</p>
-<ul>
-<li>Highlight biases about them and change them accordingly (e.g., what if this text literally says what we think it implies?),</li>
-<li>Make an argument about the relevance of their design (e.g., what if this text is an image, or what if it is &quot;plain&quot;?),</li>
-<li>Physically manifest ways of reading them (e.g., what if this text is its deconstruction?),</li>
-<li>Demonstrate how describing them is also interpreting them (e.g., what if this text includes its annotations or metadata?),</li>
-<li>Stress how remediating or reformatting them shapes access and interpretation (e.g., what if this text is only a PDF or TXT?),</li>
-<li>Thaw them, untether them from origin stories, or refuse claims that they are frozen in time (e.g., what if this text is a contemporary fiction?), or</li>
-<li>Repair them (e.g., what if what's missing from this text is returned to it?).</li>
-</ul>
-<p>With these cases in mind, we can explore how meaning is entangled with matter, or how we are not somehow separate from our objects of inquiry.</p>
-<h3 id="on-care-repair-and-stewardship">On Care, Repair, and Stewardship</h3>
-<p>This week I've been thinking through the rhetoric of care and repair, and I wonder if it entails the assumption that something or someone needs to be fixed. Put differently, does it pathologize texts or history (to &quot;restore&quot; them)? Does it depend on a sort of critical hubris? While prototyping texts, can we have a care and repair paradigm without an investment in &quot;whole texts&quot; or &quot;complete history&quot;? For me, it seems like stewardship (as a critical or creative practice) is crucial here. So, too, are questions of agency: where do we locate it in acts of care, repair, interpretation, alteration, or prototyping? How is it about what texts, contexts, and critics do together?</p>
+<p>During Week 7, we'll discuss plain text as a legacy, culture, concept, and format. Prior to that meeting, please read Chapter 3 of Tenen's <a href="http://jenteryteaches.com/noneshall/508/tenenPlainText.pdf"><em>Plain Text</em></a>. Also, in your notebook, please experiment with examining your -ism and selected text as plain text. From my perspective, this may involve transcribing some or all of it into a text editor, such as TextEdit, Notepad++, Sublime, or TextWrangler, and then saving it as a TXT file. (By default, you should have a text editor on your computer. If you need help locating or using an editor, then just let me know.)</p>
 
-<h2><a id="week1"></a>Week 1 | 4 January | Motivations and Aims for the Seminar</h2>
-<p>Hello! Welcome to 508. I'm looking forward to it. At some point during our first meeting, we should introduce ourselves and briefly review the <a href="index.html">syllabus</a>, which is also available in <a href="syllabus.pdf">PDF</a>. After you read the syllabus, please let me know of any concerns.</p>
-<h3><a id="assumptionswk1"></a>Assumptions</h3>
-<p>Let's start the seminar with some common assumptions about digital humanities (DH). If you don't mind, then I'd like to discuss each of these, with an emphasis on your familiarity with them and any questions you have.</p>
+<p>Once you have a TXT file ready to hand (or written to disk), you might consider the questions below. Ideally, as you interpret your selected text as TXT, these questions prompt considerations of what's lost and gained in the shift to plain text. (Again, I imagine 250 to 750 words should suffice for an entry. You may also want to push your TXT file to a remote server for public or private circulation.)</p>
+
+<p>As plain text:</p>
 <ul>
-<li>The field is a service. It merely develops and maintains digital resources for researchers. It does not interpret or meaningfully engage with pre-digital traditions in literary and cultural criticism.<br /></li>
-<li>DH does not concern itself with the literary or aesthetic character of texts. It does not do hermeneutics. Instead, it is instrumentalist in character: a techno-solutionist byproduct of positivism and big data. It bypasses fiction and poetry for gadgets and whiz-bang.<br /></li>
-<li>DH practitioners replace cultural perspectives with uncritical computer vision. Instead of privileging irony or ambiguity, they use computers to &quot;prove&quot; reductive claims about literature and culture, usually through graphs and totalizing visualizations. Literature and critical theory are subordinated to investments in data.<br /></li>
-<li>To participate in the field, you must be fluent in computer programming, or at least willing to treat literature and culture quantitatively. If you are not a programmer, then you are not doing digital humanities.</li>
+<li>What important formatting does your text lack? What happens to its style?</li>
+<li>What happens to the role of the page? The paragraph? The line? The book?</li>
+<li>Where is it written or stored?</li>
+<li>How do you navigate it?</li>
+<li>How heavy is it? Or how large is it? (Consider file size here. Compare it with an MP3, MP4, JPG, or PDF file.)</li>
+<li>How is it legible? For whom or what?</li>
+<li>How is it processed? (Consider running it through <a href="http://voyant-tools.org/" target="_blank">Voyant</a>.)</li>
+<li>Where are other texts like it? Why are those texts available, or not available, in TXT? (Check out <a href="http://www.gutenberg.ca/#h2completecatalogue" target="_blank">Project Gutenberg</a>, <a href="https://archive.org/details/texts" target="_blank">Internet Archive</a>, or <a href="https://www.hathitrust.org/" target="_blank">HathiTrust</a>.)</li>
+<li>How is it mutable? Ephemeral? Persistent?</li>
+<li>How can you get rid of it? How do you delete it?</li>
+<li>How can you annotate it?</li>
+<li>What does it look like on a laptop? On a desktop? On a mobile phone? On paper?</li>
+<li>What are the contexts for reading and interpreting it? When do people read plain text, or want/need plain text? What do those scenarios look like? What are the stories or routines of plain text?</li>
+<li>In terms of its content, what interesting interpretations emerge? How, if at all, do you interpret it differently as plain text?</li>
+<li>What if you interpreted it as the original, or without any reference to another version?</li>
+<li>When is its transcription also editing? Description? Alteration?</li>
+<li>How would you feel about <a href="https://en.wikipedia.org/wiki/Voyager_Golden_Record" target="_blank">sending it into interstellar space</a>, for extraterrestrial life forms or other humans to find in the future? Is plain text your preferred format for the long now of reading?</li>
 </ul>
 
-<h3><a id="counter-assumptions"></a>Counter-assumptions</h3>
-<p>During this seminar, I suggest we complicate and counter these assumptions by:</p>
+<h2><a id="markup"></a>Approaching Text as Markup</h2>
+
+<p>During Week 7, we'll also interpret text as markup, with a bias toward HTML5. For that discussion, we don't have any reading, but&mdash;to prepare for Week 7&mdash;we will have a workshop on writing HTML5 during Week 5. I'm also asking you to interpret your text as markup (using 250-750 words in your notebook). Personally, I'd start with the plain text exercise and then encocde the TXT file as an HTML file. If you prefer, then you can write HTML by hand in your notebook. I'm not asking you to compile it in a browser. If you wish, then you are also welcome to push your HTML5 file(s) to a remote server for public or private circulation.</p>
+
+<p>As you encode your selected text (or chunks of it) in HTML5, I recommend consulting <a href="http://jenteryteaches.com/noneshall/508/html5.pdf" target="_blank">this HTML5 cheat sheet</a> (especially Page 1). If you grow interested in writing HTML5 for the web, then you might also want to consult <a href="http://jenteryteaches.com/noneshall/508/css3.pdf" target="_blank">this CSS3 cheat sheet</a> for style and formatting. If you are looking for a basic page of HTML5 that references or calls CSS3, then see <a href="https://github.com/jentery/508/blob/gh-pages/sample.html" target="_blank">this sample HTML page</a> I wrote. It includes Dublin Core metadata for bibliography. <a href="http://jentery.github.io/508/sample.html" target="_blank">This is what it looks like in a browser.</a></p>
+
+<p>Unless you want to, there's no need to go too deep into HTML5 for the purposes of this exercise. On paper or in a text editor, consider using the p, a, h, head, and body tags. If you want to push an HTML file to the web, then I recommend <a href="https://validator.w3.org/" target="_blank">running it through a validator</a>. Valid markup is more accessible. As you work through the encoding process, feel free to drop me a line. I'm working on the assumption that you're new to markup.</p>
+
+<p>Once you've encoded your selected text with a bit of markup, you might consider the questions below, if only for the sake of interpretation. You'll see that I've simply copied and pasted some of the questions from the <a href="#plain">plain text bit</a> above. It's not that I'm being lazy. There's just a lot of overlap here.</p>
+<p>As markup:</p>
 <ul>
-<li>Doing digital studies without much, if any, interest in programming. For instance, I will not require you to conduct any programming exercises during workshops or outside of seminar. If you wish to apply programming to the material, then feel free. (I enjoy programming, too.)</li>
-<li>Experimenting with a speculative thread of digital studies that is interested less in visualization, graphical expression, or big data and more in close reading, small data, and affordances (i.e., immeasurable yet specific relations between &quot;animal and environment&quot;; see <a target="_blank" href="http://jenteryteaches.com/noneshall/508/gibsonVisualPerception.pdf">J.J. Gibson in 1979 on &quot;The Ambient Optic Array&quot;</a>).</li>
-<li>Accounting for the ways in which art resists, diffracts, or escapes interpretation (or remediation) by computer vision. This may be something as basic as a text that is <a target="_blank" href="http://www.theguardian.com/books/booksblog/2014/may/01/scanner-ebook-arms-anus-optical-character-recognition">not conducive to optical character recognition</a> or search mechanisms; we might also consider the categorization and indexing of art via practices such as descriptive metadata.</li>
-<li>Historicizing digital studies through legacies of experimental media and aesthetics prior to personal computing and the internet. One trick here will be negotiating our relationship with the &quot;avant-garde.&quot; For instance, can we balance assertions for autonomy or rupture with materialist investments in the everyday? Or, how do we address the ideologies overtly at work in avant-garde aesthetics?</li>
-<li>Thinking through paradigms that do not privilege legibility, speed, massiveness, mining, or even discovery. Important question: can you manage such paradigms without relying on romantic individualism, or without assuming we can &quot;withdraw&quot; from the systems we interpret? I ask because I'm personally skeptical of recent, rather nostalgic obsessions with pre-digital living and labour. Can we maintain critiques of computational or algorithmic logic without inventing (or assuming) a history of &quot;simpler times&quot;? While I don't want to rely too much on qualifiers such as &quot;pre&quot; and &quot;post,&quot; I do wonder if we might unpack something like a &quot;post-digital&quot; approach to print and old media during this seminar. This approach might involve locating new media (see <a target="_blank" href="http://jenteryteaches.com/noneshall/508/manovichNewMedia.pdf">Manovich in 2001 on &quot;What Is New Media?&quot;</a>) in our everyday lives (as a given, as something banal or familiar) to then prototype alternative histories and possibilities. This way, &quot;digital&quot; is not synonymous with &quot;revolutionary&quot; or even &quot;novel.&quot; Maybe it's quite boring.<br /></li>
-<li>Conducting a series of experiments that blend technique with conceptualization, stuff with ideas, maintenance with novelty, and material specificity with politics and aesthetics. These experiments might follow in a long tradition of dialectics accounting for relations between the abstract and particular.<br /></li>
-<li>Resisting a &quot;make or break&quot; logic, with a bias instead toward &quot;care and repair&quot; as practices fundamental to literary and cultural practice. Later in the term, we'll specifically talk about alternatives to suspicion. For now, we might highlight how innovation and obsolescence operate through technologies (or &quot;technocultures&quot;; see <a target="_blank" href="http://pmc.iath.virginia.edu/text-only/issue.990/ross-1.990">Andrew Ross in 1990</a>).</li>
+<li>How does your text separate style from content? Where is the content? Where is the style?</li>
+<li>How is your text interactive? How does markup increase or decrease interaction?</li>
+<li>How are tags acts of description, alteration, or interpretation? To what effects?</li>
+<li>What happens to the role of the page? The paragraph? The line? The book?</li>
+<li>Where is it written or stored?</li>
+<li>How do you navigate it?</li>
+<li>How heavy is it? Or how large is it? (Consider file size here. Compare it with an MP3, MP4, JPG, TXT, or PDF file.)</li>
+<li>How is it legible? For whom or what?</li>
+<li>What are the implications of treating it as "valid" or "not valid"?</li>
+<li>Why bother knowing how to encode your text? Why not use a WYSIWYG (what-you-see-is-what-you-get) editor, such as those included with WordPress or Weebly?</li>
+<li>How is it processed? (Consider running it through <a href="http://voyant-tools.org/" target="_blank">Voyant</a>.)</li>
+<li>Where are other texts like it? Why are those texts available, or not available, in HTML? (Check out <a href="http://www.gutenberg.ca/#h2completecatalogue" target="_blank">Project Gutenberg</a>, <a href="https://archive.org/details/texts" target="_blank">Internet Archive</a>, or <a href="https://www.hathitrust.org/" target="_blank">HathiTrust</a>.)</li>
+<li>How is it mutable? Ephemeral? Persistent?</li>
+<li>How can you get rid of it? How do you delete it?</li>
+<li>How can you annotate it?</li>
+<li>What does it look like on a laptop? On a desktop? On a mobile phone? On paper?</li>
+<li>What are the contexts for reading and interpreting it? When do people read HTML, or want/need HTML? What do those scenarios look like? What are the stories or routines of HTML?</li>
+<li>In terms of its content, what interesting interpretations emerge? How, if at all, do you interpret it differently as HTML?</li>
+<li>What if you interpreted it as the original, or without any reference to another version?</li>
+<li>How would you feel about <a href="https://en.wikipedia.org/wiki/Voyager_Golden_Record" target="_blank">sending it into interstellar space</a>, for extraterrestrial life forms or other humans to find in the future? Is HTML your preferred format for the long now of reading?</li>
 </ul>
 
-<h3><a id="postulations"></a>Postulations</h3>
-<p>To manage all of this, let us entertain a series of postulations for the seminar. These postulations are below, with some references to the scholarship informing them. We'll discuss their consequences or implications by anchoring them in weekly exercises, where each of you will alter a single text (of your choice) using specific techniques (e.g., <a href="index.html#week10">&quot;reverse it,&quot;</a> <a href="index.html#week11">&quot;redact it,&quot;</a> <a href="index.html#week11">&quot;glitch it&quot;</a>). Together, these acts of alteration may be understood as a sequence of prototyping: testing interpretations and their affordances as they manifest in physical or tactile form.</p>
-<p><a id="whatifdesign"></a><p><strong>Postulation 1:</strong> <em>What if digital studies is primarily about design? Or, what happens if we privilege design as a way to interpret literary and cultural history?</em> These questions are especially inspired by the work of <a href="http://jenteryteaches.com/noneshall/508/balsamoDesign.pdf">Anne Balsamo, who (in &quot;Design,&quot; published in 2010</a>) outlines four ways to define design:</p>
-<ul>
-<li>&quot;aesthetic embellishments or nonfunctional aspects of a product or application,&quot; where, in an aesthetic tradition, design is separate from its object (Balsamo 2010: 2);</li>
-<li>&quot;a solution to a problem,&quot; where, in an engineering tradition, design is associated with an evaluable task meant to solve a puzzle (2010: 2);</li>
-<li>&quot;a domain of creative expression,&quot; where design, in an arts tradition, stresses the practices through which materials are shaped into a form (2010: 2); and</li>
-<li>&quot;a practice of cultural reproduction,&quot; where design, in a cultural studies (or &quot;design studies&quot;) tradition, is studied as a combination of &quot;ontological frameworks, methodologies, institutional formations, and cultural manifestations&quot; (2010: 2). Here, we have, at least in part, a kind of &quot;meta&quot; approach to design. Admittedly, this approach seems like a good fit for humanities methodologies.</li>
-</ul>
-<p>Later, Balsamo argues that people (or, more specifically, designers) should be &quot;encouraged to develop a robust imagination about <em>what could and should</em> be done differently with technologies that are already in existence&quot; (2010: 7). Put this way, design should be not only described and theorized but also exercised. In this seminar, we might replace Balsamo's &quot;technologies&quot; with &quot;texts,&quot; asking ourselves what could and should be done differently with texts already in existence. In so doing, we could also summon <a target="_blank" href="https://books.google.ca/books?id=XSaPAwAAQBAJ&amp;lpg=PA155&amp;ots=0bdW23uS1Z&amp;dq=A%20critical%20technical%20practice%20will%2C%20at%20least%20for%20the%20foreseeable%20future%2C%20require%20a%20split%20identity%20--%20one%20foot%20planted%20in%20the%20craft%20work%20of%20design%20and%20the%20other%20foot%20planted%20in%20the%20reflexive%20work%20of%20critique&amp;pg=PA131#v=onepage&amp;q&amp;f=false">Philip Agre's notion of &quot;critical technical practice&quot;</a>: &quot;A critical technical practice will, at least for the foreseeable future, require a split identity&mdash;one foot planted in the craft work of design and the other foot planted in the reflexive work of critique&quot; (Agre 1997: 155).</p>
-<p>More recently, there's Anthony Dunne and Fiona Raby with <em>Speculative Everything</em>, published in 2013. There, they point to fiction as a way to think about &quot;critical design,&quot; which is not art but rather &quot;an alternative to how things are. It is the gap between reality as we know it and the different idea of reality referred to in . . . [a] proposal that creates space for discussion&quot; (Dunne and Raby 2013: 35). When we prototype texts in this seminar, we could approach them as gaps between history as we know it and a different idea of history referenced by the altered text at hand. This may give us a stronger sense of how design studies meaningfully engages literary and cultural studies.</p>
+<h2><a id="type"></a>Approaching Texts as Type</h2>
 
-<p><a id="whatifrepair"></a><strong>Postulation 2:</strong> <em>What if design practice is about both speculation and repair? Or, what if the history of literature and culture is a broken world?</em> This postulation prompts us to approach literary and cultural history as states of constant change across contexts, formats, media, audiences, archives . . . . The list goes on. In a way, digital studies stewards those changes, with possible futures and potential conditions in mind.</p>
-<p>When prototyping texts, we may rehearse <a target="_blank" href="http://www.indiana.edu/~bobweb/r546/modules/creativity/creativity_tests/guilford_uses_task.html">Guilford's Alternative Uses Task</a> to list the many possible manifestations of a single text. What if it were a . . . ? Or a . . . ? Then we can produce these versions and interpret them accordingly.</p>
-<p>For me, <a target="_blank" href="http://jenteryteaches.com/noneshall/508/rosnerAmesDesigningForRepair.pdf">the work of Daniela Rosner and Morgan Ames</a> (2014) is informative here. They refer to &quot;negotiated endurance,&quot; or &quot;the ways that maintenance, care, and repair are negotiated&mdash;often collaboratively&mdash;in use and the meaning-making associated with use, rather than the meanings pre-specified by designers&quot; (Rosner and Ames 2014: 9). For us, questions of negotiated endurance may involve attending to issues that authors cannot anticipate (e.g., what will happen to their work as conditions change). They may also nudge us to research the historical and material particulars of texts: who made them, when, and how, together with how they've migrated, morphed, or &quot;broken down&quot; (whatever that means for a text). What's more, negotiated endurance should help us account for matters of provenance, variance, witnessing, circulation, and appropriation (e.g., who should alter or recontextualize a text, in what form, with what acknowledgments, and under what assumptions).</p>
-<p><a target="_blank" href="http://jenteryteaches.com/noneshall/508/jacksonRethinkingRepair.pdf">Stephen Jackson's notion of &quot;broken world thinking&quot;</a> is helpful here, too. Jackson warns us of &quot;the twin analytic dangers of nostalgia and heroism&quot; (2014: 233). As part of broken world thinking, he recommends:</p>
-<ul>
-<li>thinking beyond the binaries of &quot;senders and receivers, producers and consumers, designers and users&quot; (2014: 234);</li>
-<li>directing our attention away from novelty (or &quot;the shock of the new&quot;) toward &quot;the myriad forms of activity by which the shape, standing, and meaning of objects in the world [are] produced and sustained&quot; (2014: 234);</li>
-<li>expanding our articulation of timelines beyond origin stories or ruptures to account for the long shelf life of material culture, including its maintenance and repair (2014: 234);</li>
-<li>&quot;building bridges to new and adjacent fields&quot; (2014: 235), which, in this case, include bridges between technology studies (Jackson's field) and media, literary, cultural, and design studies; and</li>
-<li>&quot;positioning the world of things as an active component and partner in the ongoing project of building more humane, just, and sustainable collectives&quot; (2014: 235). In this instance, it is important to note that, for Jackson, a thing is not a fetish. It is closer to a congealed process, tactile relationship, or bundle of components.</li>
-</ul>
-<p>As Jackson acknowledges, broken world thinking corresponds with how Walter Benjamin perceived history, &quot;collecting and recuperating the world around him&quot; (Jackson 2014: 237). For this seminar, how might the alteration of texts (however fragmentary) also be an act of recuperation?</p>
+<p>For Week 8, we're going to talk typography, building on work by <a target="_blank" href="http://jenteryteaches.com/noneshall/508/bringhurstElements.pdf" target="_blank">Robert Bringhurst</a>. As or after you read this excerpt of <a href="http://jenteryteaches.com/noneshall/508/bringhurstElements.pdf" target="_blank"><em>The Elements of Typographic Style</em></a>, please experiment with your selected text by changing its letterform (including its typeface) at least once, but ideally two or three times, and then printing at least one iteration in pamphlet form. If you do print more than one sheet, then you may want to consider stapling the sheets together. Feel free, too, to experiment with folding them, like a leaflet. And so on.</p>
 
-<p><a id="whatifprototype"></a><strong>Postulation 3:</strong> <em>What if interpretation is expressed through not only text but also prototypes? What do literary prototypes do, and how?</em> Thus far, these three questions have been running in the background of my notes for this week, so I'll foreground them here. While scholarship in design often treats text as the enemy, we might instead think about design and text, or prototyping and literature, together.</p>
-<p>Such gestures have plenty of precedent in the humanities. For me, <a target="_blank" href="http://jenteryteaches.com/noneshall/508/druckerFiguringTheWord.pdf">Johanna Drucker's work on artists' books</a> immediately comes to mind; there, the word is often image, part of a long history of <a target="_blank" href="http://jenteryteaches.com/noneshall/508/druckerMcVarishGraphicDesignHistory.pdf">graphic design</a>. <a target="_blank" href="http://www.digitalhumanities.org/companion/view?docId=blackwell/9781405103213/9781405103213.xml&amp;chunk.id=ss1-4-10">Drucker's speculative computing work with Bethany Nowviskie</a> is also relevant: &quot;Our goal is to place the hermeneut inside a visual and algorithmic system, where his or her very presence alters an otherwise mechanistic process at the quantum level&quot; (Drucker and Nowviskie 2004: n. pag.). Textual systems become arranged systems that we may inhabit and even alter. When we write a text, we design it, too. Perhaps the key question is how palpable the design is.</p>
-<p>Many also reference <a target="_blank" href="http://jenteryteaches.com/noneshall/508/sterlingDesignFiction.pdf">Bruce Sterling's notion of &quot;design fiction,&quot;</a> which combines design (as &quot;a method of action,&quot; following Charles Eames) with literature (as &quot;a method of meaning and feeling&quot;) (Sterling 2009: 24). While we might dispute Sterling's formation here, we now see a thing called &quot;design fiction&quot; at work across many present-day labs, studios, conferences, and publications. For instance, the MIT Media Lab has a <a target="_blank" href="https://www.media.mit.edu/research/groups/design-fiction">Design Fiction research group</a>.</p>
-<p>In digital humanities, there's <a target="_blank" href="http://digitalhumanities.org/dhq/vol/3/4/000069/000069.html">Kari Kraus's &quot;Conjectural Criticism,&quot;</a> published in 2009. Kraus's work deeply informs this seminar: &quot;examples of conjecture include the recovery of lost readings in classical texts and the computational modeling of the evolution of a literary work&quot; (Kraus 2009: para. 4). "Expressed in grammatical terms, conjecture operates in the subjunctive and conditional moods. Because its range of motion extends beyond the pale of the empirical, its vocabulary is replete with coulds, mights, mays, and ifs. Such a vocabulary reflects not caution&mdash;on the contrary, conjecture is a radical, audacious editorial style&mdash;but rather a refusal to settle for attested states of texts" (2009: para. 9). She argues: &quot;We might, for starters, imagine conjecture as a knowledge toolkit designed to perform 'what if' analyses across a range of texts. In this view, the text is a semiotic system whose discrete units of information can be artfully manipulated into alternate configurations that may represent past or future states&quot; (2009: para. 15). For Kraus, material experimentation is (or should be) central to the practice of interpretation, and it can do more than heal, mask, or rectify the changes that occur in texts. It can produce those changes and examine the effects. In this sense, perhaps literary prototypes, or design fictions, weld the practices of reading and interpretation with their objects of inquiry.</p>
+<p>During this process of reading Bringhurst, changing the letterform, and printing your materials, below are some questions you might find helpful. They build directly on Bringhurst's scholarship (see the page numbers next to them). As you've done with previous experiments, feel free to respond to a few of these questions with 250-750 words.</p>
 
-<p><a id="whatifmatter"></a><strong>Postulation 4:</strong> <em>What if meaning is entangled with matter? Or, in the relations between interpretations and materials, where do we locate agency?</em> Here, I'm specifically drawing from <a target="_blank" href="http://jenteryteaches.com/noneshall/508/baradMeetingTheUniverseHalfway.pdf">Karen Barad's <em>Meeting the Universe Halfway</em></a>, published in 2007. For the purposes of this seminar, Barad prompts us to shift:</p>
 <ul>
-<li>From studies of mimesis or sameness (e.g., copies of originals, or words mirroring things) to considerations of differences over time and across instances (Barad 2007: 89);</li>
-<li>From representational (e.g., stable boundaries between subjects and objects) to performative paradigms (e.g., subjects and objects emerge through relationships/situations) (2007: 89);</li>
-<li>From words and things to the entanglement of materials and discourse (2007: 89);</li>
-<li>From nature/culture binaries to patterns of difference (2007: 89);</li>
-<li>From reading against to reading through (2007: 90);</li>
-<li>From things to phenomena as objective referents (e.g., how phenomena produce boundaries or &quot;cuts&quot; between this and that) (2007: 90);</li>
-<li>From reflection to diffraction (2007: 90);</li>
-<li>From reification or simplification to fine-grained details (2007: 90); and</li>
-<li>From &quot;reflecting on representations&quot; to &quot;accounting for how practices matter&quot; (2007: 90).</li>
+<li>How does the typography make visual sense? (9)</li>
+<li>How does the typography make historical sense? With what historical period would you associate it? (9, 12-15)</li>
+<li>Describe the stroke, slope, axis, and serifs. Consider terminology such as "abrupt," "adnate," "aperture," "lachrymal," and "modulated." (12-13)</li>
+<li>How does the typography honour content? How doesn't it? (17-18)</li>
+<li>How does the typography creatively interfere, or not interfere, with letters? (19)</li>
+<li>How is the typography an act of interpretation? (19)</li>
+<li>What is the outer logic of the typography? In what relation to the logic or aims of the text? (20)</li>
+<li>How does the typography make visible the relationship between text and other elements? How doesn't it? (21)</li>
+<li>What is a typeface that doesn't honour or elucidate the text? How does it read? What visual or historical features enable its disrespect for the text? (22)</li>
+<li>How does the typography invite readers? How doesn't it? (24)</li>
+<li>What are the incidental details that especially matter? (24)</li>
+<li>If the typeface were a person, then who would it be?</li>
+<li>What are three or four adjectives that succinctly describe the typography?</li>
+<li>How does the typography read up close, in print? From a distance?</li>
+<li>How does the typography read up close, on a screen? From a distance?</li>
+<li>On screen or in print, how does the typography read upside down? Sideways?</li>
+<li>Returning for a moment to our ongoing conversations about source material and labour, how might you follow your selected text to the printer? What paths would you take, what processes would be involved, and who (author, editor, typographer, publisher, printer, reader, librarian) might you speak to? What decisions or judgments do these people make? (194)</li>
+<li>Octothorp(e)? Swung dash? Tilde? Virgule? Dingbat? Muttons? Kern? Swash?</li>
 </ul>
-<p>We could spend an entire term unpacking this list, or reading and discussing Barad's compelling book. At this point, though, I want to underscore ways we might refrain from assuming neat, material distinctions between authors, audiences, interpretation, and texts, or between design, matter, making, and form, or between inscription, transmission, circulation, and media. Barad: &quot;We do not uncover preexisting facts about independently existing things as they exist frozen in time like little statues positioned in the world. Rather, we learn about phenomena&mdash;about specific material configurations of the world's becoming. . . . <em>[P]ractices of knowing are specific material engagements that participate in (re)configuring the world</em>&quot; (2007: 90-91). In my experience, prototyping highlights how we change texts as we interpret them. It also stresses how texts do not determine their interpretations and are not neutral, inert, or transparent objects (e.g., that instrumentally translate input into output). From my perspective, they shape how we know and perceive the world, and this influence is contingent upon when, where, and how they are read as text, discourse, and matter.</p>
-<p>To conclude our postulations, we might ask how, in many ways, prototyping texts ultimately concerns what we mean by &quot;description&quot; in literary and cultural studies. Building on the work of Charles Sanders Peirce, <a href="http://jenteryteaches.com/noneshall/508/motenInTheBreak.pdf" target="_blank">Fred Moten uses the term, &quot;second iconicity&quot; (2003: 92), in his book, <em>In the Break</em>,</a> to demonstrate how writing not only refers to and represents experiences but also performs them through description (as opposed to explanation). Moten: &quot;we must attempt a description of an experience whose provenance or emergence is not reducible to logical structure, pictorial internal relation or internal similarity; it is an experience of the passage or cut that cannot be explained because those formulations upon which our explanations must be grounded . . . are themselves so profoundly without ground&quot; (2003: 92). For Moten, description allows us to notice aspects of experience and improvise with the materiality of language, the ontology of which is never stable or frozen. For us, perhaps prototypes may operate as suggestive or evocative descriptions, pointing to a gap between history (or attested states of texts) and possibilities (or conjectured states of texts). As such, prototyping is not really meant to uncover hidden dimensions of literature and culture or to explain them away. It is intended to perform and experiment with the contingencies of difference, and to identify which differences matter, when, and why. We'll discuss this later in the term, but I like to think that such an approach involves questioning the surface or face value of texts without relying too heavily (if at all) on suspicion.</p>
 
+<p>As you conduct these experiments, you may also find Ellen Lupton's <a href="http://thinkingwithtype.com/" target="_blank">Thinking with Type</a> informative. I have! Let me know what questions pop up as you proceed. Thanks, all!</p>
 
-<h3><a id="wait"></a>Wait . . . What's a Prototype?</h3>
-<p>Let's start with the OED:</p>
-<p><em>proto-</em>: Prefixed to nouns and adjectives with the sense &quot;earliest, original; at an early stage of development, primitive; incipient, potential&quot;</p>
-<p><em>type</em>: etymology is French and Latin, but also Greek (τύπος impression, figure, type, < the root of τύπτειν to beat, strike); early (1500s), it is &quot;[t]hat by which something is symbolized or figured; anything having a symbolical signification; a symbol, emblem&quot;; later (1700s), it is &quot;[a] small rectangular block, usually of metal or wood, having on its upper end a raised letter, figure, or other character, for use in printing&quot;; shortly thereafter (late 1700s/early 1800s), &quot;[a] printed character or characters, or an imitation of these&quot;; and then later (1800s), it becomes &quot;[t]he general form, structure, or character distinguishing a particular kind, group, or class of beings or objects&quot;; importantly, the history of the word suggests an entanglement of technical and conceptual treatments</p>
-<p>And then we have prototype operating primarily as a noun (since the 1500s) or a verb (since the 1800s):</p>
+<h2><a id="forms"></a>Approaching Texts as Forms</h2>
+
+<p>Next week we'll shift from discussions of typography to prototyping texts as forms. Here, I don't mean "form" in any grand sense, such as Platonic form or Northrop Frye's continuity of form. I mean Kafka's sort of form: the forms of bureaucracy, or the forms we don't want to complete but must. Boring forms. Required forms. Official forms. Forms meant for files. We might think of them as online profiles or polls, too. After all, it feels like the internet runs on fillable blanks.</p>
+
+<p>We'll start by reading <a href="http://jenteryteaches.com/noneshall/508/gitelmanShortHistory.pdf" target="_blank">Lisa Gitelman's "A Short History of _____."</a> There, Gitleman makes numerous compelling arguments for how blanks structure knowledge and reproduce culture. She also writes this wonderful sentence: "Blanks are printed and used, not . . . authored or read" (25). For this particular prototype, feel free to interpret "print" as not only "print to paper" but also "print to screen."</p>
+
+<p>How to make your selected text a form? Add blanks to it. This may involve removing text or other features. But please create at least one version of your text as a form <em>and</em> have at least two people complete it. The form can be on- or off-screen, or both. As with other prototypes this term, it would also be great if you could write 250-750 words about the prototyping as inquiry. What does making a text to be printed and used (not authored or read) tell you? How does changing your selected text this way shape its politics and aesthetics?</p>
+
+<p>As you read and prototype, here are some questions you may wish to consider, with parenthetical citations of "A Short History of ____," where applicable:</p>
 <ul>
-<li><em>prototype (1500s)</em>: &quot;[t]he first or primary type of a person or thing; an original on which something is modelled or from which it is derived; an exemplar, an archetype&quot;</li>
-<li><em>prototype (1800s)</em>: &quot;[t]o take as a prototype or model; to imitate&quot;</li>
-<li><em>prototype (1800s)</em>: &quot;[i]n early use: to originate, provide with a prototype. Now usually: to create a prototype of. Also intr.: to act as or create a prototype&quot;</li>
-<li><em>prototype (1900s)</em>: &quot;[i]n model-making: a full-size original of which a model is a representation on a reduced scale&quot;</li>
-<li><em>prototype (1900s)</em>: in electronics, &quot;[a] basic filter network (usually having series and shunt reactances in inverse proportion) with specified cut-off frequencies, from which other networks may be derived to obtain sharper cut-offs, constancy of characteristic impedance with frequency, etc.&quot;</li>
-<li><em>prototype (1900s)</em>: &quot;[a] first full-size working version of a new vehicle, machine, etc., of which further improvements may be made; a preliminary version made in small numbers for evaluation, or from which improved or modified versions may be developed&quot;</li>
+<li>With the addition of blanks, how does your text become formulaic? What would be its vernacular habits? Consider ledgers and daybooks here. (22)</li>
+<li>On what sort of paper is it printed or written? Is the paper ruled? (23)</li>
+<li>If you describe it as a "blank form," then in what offices or locations might you find it? Who would issue it? Who would complete it? (24)</li>
+<li>How does it incite manuscript? (26)</li>
+<li>How does it imagine data? That is, how are the blanks also metadata, and what types of data do they request or require? (26; see Alan Liu's work here, too)</li>
+<li>How are the blanks indications of what's missing? What do they assume about absence? How do they create absence? Are they nominal blanks (see Swift and Poe)? (27)</li>
+<li>How do the blanks divide or organize mental labour? How do they "make bureaucracy"? (30)</li>
+<li>Could you say your blanks have subjectivities? If so, then how would you describe them? How are they "interactive"? How are they not at all? (31)</li>
+<li>What makes your text-as-form official? Or how did you make it appear official, and why? (32)</li>
+<li>How would it be standardized for, say, mass production? With which publics in mind? (37)</li>
+<li>How is it, or would it be, ephemeral? For instance, consider the everydayness of job printing. (40)</li>
+<li>With what place and time would you associate it? (43)</li>
+<li>How is it instrumental? How is it not? (48)</li>
+<li>How does it appear like amateur work? To what effects on its authority? (52)</li>
+<li>How are the blanks also fields? Can they regulate, automate, or correct what's entered?</li>
+<li>What sort of characters can be entered in the blanks? Alphanumeric? Only numeric? Only alpha?</li>
+<li>Which fields are open text? Which are drop-down menus? Why?</li>
+<li>Which fields are required? Optional? Why?</li> 
+<li>Which fields use input masks? How? Why?</li>
+<li>Which fields have character limits? What's the limit? Why?</li>
+<li>Once it is entered, where does the data go? How is it stored? Where is it housed? How is it found? How is it visualized or expressed?</li>
+<li>Once they complete the form, do people get any sort of confirmation? If so, then who or what provides that confirmation?</li>
+<li>Why would people want to avoid the form at all costs? How does it produce frustration or misery?</li>
 </ul>
-<p>How do we interpret this history? How might these various definitions inform the work we're doing this term? What tensions do we notice between, e.g., imitation and originating, or a symbol and a working version? What definitions or accounts are missing from the OED?</p>
-<h3><a id="isms"></a>-isms</h3>
-<p>Here's where -isms enter the picture. For this seminar, I'm hoping we can test the above postulations and assumptions by selecting texts that meld aesthetics with politics and prototyping alternative verisons of them. For this sort of project, manifestos (specifically manifestos associated with artistic/literary movements) immediately came to mind. If we consider <a href="http://jenteryteaches.com/noneshall/508/cawsManifesto.pdf">Mary Ann Caws's work on manfiestos</a> (published in 2001), then we might describe manifestos as:</p>
+<p>Looking forward to seeing what you cook up for this prototype. In the meantime, please let me know if you have any questions or concerns. Happy to help! All I ask is that you complete <a href="http://www.jenterysayers.com/contact-jentery/" target="_blank">this form</a>.</p>
+
+<h2><a id="glitches"></a>Approaching Texts as Redactions + Glitches</h2>    
+
+<p>For next week's seminar, we're going to redact and glitch your texts. Prior to that meeting, please hide, mask, or erase aspects of your selected text. As you do so, experiment with random and purposeful redactions. Then interpret the text as a redacted text. (Here, perhaps <a href="http://www.moma.org/collection/works/146983" target="_blank">Broodthaers</a> will interest.) Next, repeatedly compress and/or bend your text. Once again, experiment with randomness and purpose. (Here, perhaps <a href="https://blogs.loc.gov/digitalpreservation/2012/11/glitching-files-for-understanding-avoiding-screen-essentialism-in-three-easy-steps/" target="_blank">Owens</a> will help.) Then interpret the text as a glitch. If you wish, then feel free to turn your text into a bot, too, and interpret it as a bot. (To get started, I recommend <a href="http://www.zachwhalen.net/posts/how-to-make-a-twitter-bot-with-google-spreadsheets-version-04/" target="_blank">Whalen</a>. If you are interested in programming a bot, then let me know. I have examples I've written in Python.)</p>
+
+<p>Before or while you redact, glitch, and automate, please read Craze, <a target="_blank" href="http://jenteryteaches.com/noneshall/508/crazeDeadLetter.pdf">"In the Dead Letter Office,"</a> and Menkman, <a target="_blank" href="http://jenteryteaches.com/noneshall/508/menkmanVernacular.pdf">"Vernacular of File Formats."</a> As you read and experiment with your text, these questions may be relevant:</p>
+
 <ul>
-<li>public declarations (and often loud ones at that) (Caws 2001: xix),</li>
-<li>announcements of motives for forthcoming action (xix),<br /></li>
-<li>acts of deliberate manipulation (both aesthetic and political) (xix),</li>
-<li>rooted in the hand (manus) or handmade (xix),</li>
-<li>directives (usually against something) articulated by a specific &quot;we&quot; (xxi),</li>
-<li>serious, and frequently without irony (xxi),<br /></li>
-<li>situated in time, typically with an investment in being first (xxiii),</li>
-<li>instructive or pedagogical (xxiii),</li>
-<li>arranged or, indeed, designed (xxiii),</li>
-<li>efforts to label or categorize (even if loosely) (xxiv),</li>
-<li>duck, not decoration (xxv),</li>
-<li>written in the present tense (now!) (xxvi),</li>
-<li>advertisements (they sell themselves) (xxv), and</li>
-<li>subject to redefintion and recontextualization over time (xxviii-xxix).</li>
+<li>With both redaction and glitch, when and why do absence, surprise, and trust become significant?</li>
+<li>How does your glitched text address questions of agency? How are you in control? And not?</li>
+<li>In its altered state, how is your selected text a symbol? An image? A surface? Noise? A sign (signifier and sign)?</li> 
+<li>How does your selected text make meaning as a glitch? As a redaction? As a bot?</li>
+<li>Do print texts or manuscripts have glitches? If so, how? If not, why?</li>
+<li>As a redaction, glitch, or bot, what is the function or use of your text?</li>
+<li>Are your glitches features or bugs? How are they random? Or not at all?</li>
+<li>What were your techniques for redaction, glitch, and&mdash;if applicable&mdash;automation (bot-making)? How were they politically, aesthetically, or historically relevant to the text at hand?</li>
 </ul>
-<p>More on that last point: manifestos and movements are frequently adopted and adapted by other people down the line (consider the various manifestations of Futurism, e.g.). They endure shifts in media, formats, context, and even politics. In this sense, they undergo interpretation through alteration or perpetual redescription. They are not static texts, and what they represent (or how they represent) is not static, either.</p>
-<p>Here's the final set of questions for the day, then: what if we consider manifestos (or -isms) to be prototypes? How do they (if at all) pronounce a working version of a movement, asthetic, or idea? How are they (if at all) symbolic, and of what? What do they originate? How are they evaluated or tested? Why are the shortcomings or fallacies of this treatment (of manifesto as prototype)?</p>
-<p>For our next meeting, I'm asking you to read <a href="http://jenteryteaches.com/noneshall/508/cawsManifesto.pdf">Caws</a> and, in your notebooks, draft your general impressions of at least five -isms active between 1870 and 1970. Please attend to the politics and aesthetics of each -ism, with notes on the historical particulars of when each occurred and why. Here's a list of -isms, but please feel free to cook up your own list: Symbolism, Cubism, Nowism, Futurism, Dada, Minimalism, Expressionism, Imagism, Vorticism, Constructivism, Realism, Surrealism, Thingism, Concretism, Verticalism, and Plasticism.</p>
-<p>In two weeks, you'll select an -ism for the term, together with a document (e.g., a manifesto) representative of that -ism, both of which you'll briefly present during seminar. Let me know if you have any questions!</p>
-        </section>
+
+<p>Thanks! Let me know what questions or concerns you have.</p>
+       
+<h2><a id="audio"></a>Approaching Texts as Audio (MP3)</h2>
+
+<p>Coming soon.</p>
+
+<h2><a id="bots"></a>Approaching Texts as Bots</h2>
+
+<p>Coming soon.</p>
+
+</section>
         
-
          <aside id="sidebar">
       <p><br>
       <a href="description.html"><strong>Description</strong></a><br>
@@ -579,8 +548,8 @@
       <a href="syllabus.pdf"><strong>PDF</strong></a></p>
 <hr>
       <p>University of Victoria<br>
-      Spring 2016
-      <br>M 2:30-5:20pm<br>
+      Spring 2017
+      <br>Th 2:30-5:20pm<br>
       Jentery Sayers (English)<br>
 <a href="mailto:jentery@uvic.ca">jentery@uvic.ca</a></p>
 
