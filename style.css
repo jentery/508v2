@@ -1,0 +1,34 @@
+
+/*
+AUTHOR: Jentery Sayers
+DATE: 31 January 2016
+*/
+
+body {
+font-family: helvetica;
+background-color: #ffff00;
+}
+
+article {
+padding:10px 0 10px 30px; /* Top, right, bottom, left */
+}
+
+aside {
+padding:10px 0 10px 30px;
+}
+
+a:link { /* unvisited link */
+text-decoration: underline; color:#333333;
+}
+ 
+a:visited { /* visited link */
+text-decoration: underline; color: #666666;
+} 
+ 
+a:hover { /* mouse-over */
+text-decoration: none; color: #999999; 
+}
+  
+a:active {
+text-decoration: none; color: #999999; 
+}  
